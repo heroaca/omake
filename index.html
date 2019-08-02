@@ -11,7 +11,24 @@ title: MHA Omake
 	<meta name="description" content="MHA Volume Extra pages" />
 	<meta name="keywords" content="extra, pages, omake, my hero academia, bnha, filter, isotope, flickity" />
 	<meta name="author" content="MHA" />
-	<link rel="shortcut icon" href="favicon.ico">
+	<meta property="og:title" content="My Hero Academia: Omake" />
+  <meta property="og:site_name" content="僕のヒーローアカデミア御負け"/>
+  <meta property="og:url" content="https://heroaca.github.io/"/>
+  <meta property="og:description" content="Volume extra pages"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="{{site.baseurl}}/assets/main/cover.jpg" />
+  <meta property="og:image:width" content="482" />
+  <meta property="og:image:height" content="482" />
+	<link rel="shortcut icon" href="{{site.baseurl}}/assets/main/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/main/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/assets/main/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/assets/main/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/assets/main/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/assets/main/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/assets/main/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}/assets/main/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/main/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/main/apple-touch-icon-180x180.png" />
 	<!-- Font Awesome -->
 	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
 	<link href="assets/css/all.css" rel="stylesheet"> <!--load all styles -->
@@ -118,7 +135,7 @@ title: MHA Omake
 					<span class="meta__brand">{{ omake.description }}</span>
 					<span class="meta__price">{{ omake.volume }}</span>
 				</div>
-				<button class="action action--button action--buy" onclick="copyToClipboard('https://heroaca.github.io/omake/en/{{ filename }}.jpg')" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
+				<button class="action action--button action--buy" onclick="copyToClipboard('{{site.baseurl}}/en/{{ filename }}.jpg')" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
 			</div>
 			{% endfor %}
 		</section>
