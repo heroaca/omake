@@ -1,0 +1,18 @@
+baseurl: "/omake"
+url: ""
+
+collections:
+  omake:
+    output: false
+    permalink: /:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "omake"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

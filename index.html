@@ -1,0 +1,151 @@
+---
+title: MHA Omake
+---
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Hero Academia: Omake</title>
+	<meta name="description" content="MHA Volume Extra pages" />
+	<meta name="keywords" content="extra, pages, omake, my hero academia, bnha, filter, isotope, flickity" />
+	<meta name="author" content="MHA" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Font Awesome -->
+	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+	<link href="assets/css/all.css" rel="stylesheet"> <!--load all styles -->
+	<!-- Pixel Fabric clothes icons -->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/pixelfabric-clothes/style.css" />
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+	 <!-- Flickity gallery styles -->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/flickity.css" /> -->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	<script src="assets/js/modernizr.custom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+	<style type="text/css">
+		#quicksearch {
+			display: block;
+			font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+			margin: 0;
+			padding: 0 0 0.15em;
+			width: 100%;
+			border: none;
+			border-bottom: 2px solid rgba(0,0,0,0.2);
+			background-color: transparent;
+			color: #fffed8;
+			text-overflow: ellipsis;
+			font-size: 2.5em;
+			border-radius: 0;
+		}
+
+		input:focus,
+		select:focus,
+		textarea:focus,
+		button:focus {
+			outline: none;
+		}
+
+		.slider__item {
+			width: 100%;
+			height: 300px;
+			padding-top: 1em;
+			/*background: #222;
+			/* center images in cells with flexbox */
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.slider.is-fullscreen .slider__item {
+			height: 90%;
+		}
+
+		.slider__item img {
+			display: block;
+			border-radius: 5px;
+			max-height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<!-- Bottom bar with filter and cart info -->
+	<div class="bar">
+		<div class="filter">
+			<span class="filter__label">Filter: </span>
+			<button class="action filter__item filter__item--selected" data-filter="*">All</button>
+			<button class="action filter__item" data-filter=".profile"><i class="fal fa-address-card"></i><span class="action__text">Profiles</span></button>
+			<button class="action filter__item" data-filter=".illustration"><i class="fal fa-pencil-paintbrush"></i><span class="action__text">Illustrations</span></button>
+			<button class="action filter__item" data-filter=".info"><i class="fal fa-info"></i><span class="action__text">Info</span></button>
+			<button class="action filter__item" data-filter=".cover"><i class="fal fa-blanket"></i><span class="action__text">Covers</span></button>
+			<button class="action filter__item" data-filter=".misc"><i class="fal fa-books"></i><span class="action__text">Miscs</span></button>
+		</div>
+		<button class="cart" style="display: none;">
+			<i class="cart__icon fa fa-link"></i>
+			<span class="text-hidden">Links Copied</span>
+			<span class="cart__count">0</span>
+		</button>
+	</div>
+	<!-- Main view -->
+	<div class="view">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>MHA Archives <span class="bp-icon bp-icon-about" data-content="MHA Archives is a collection of My Hero Academia resources that MHA fans may find interesting."></span></span>
+			<h1 style="line-height: 1.5">Volume Extras <span>powered by <a href="http://isotope.metafizzy.co/">Isotope</a> &amp; <a href="http://flickity.metafizzy.co/">Flickity</a></span></h1>
+			<p><input type="text" id="quicksearch" placeholder="Search" /></p>
+		</header>
+		<!-- Grid -->
+		<section class="grid grid--loading">
+			<!-- Loader -->
+			<img class="grid__loader" src="assets/images/grid.svg" width="60" alt="Loader image" />
+			<!-- Grid sizer for a fluid Isotope (Masonry) layout -->
+			<div class="grid__sizer"></div>
+			<!-- Grid items -->
+			{% for omake in site.omake %}
+			{% assign filename = omake.relative_path | replace: omake.collection, '' | replace: '/', ''  | replace: '_', '' | replace: '.md', '' %}
+			<div class="grid__item {{ omake.type }}">
+				<div class="slider">
+					<div class="slider__item"><img src="en/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} in English" /></div>
+					<div class="slider__item"><img src="raw/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} Raw" /></div>
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">{{ omake.name }}</h3>
+					<span class="meta__brand">{{ omake.description }}</span>
+					<span class="meta__price">{{ omake.volume }}</span>
+				</div>
+				<button class="action action--button action--buy" onclick="copyToClipboard('https://heroaca.github.io/omake/en/{{ filename }}.jpg')" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
+			</div>
+			{% endfor %}
+		</section>
+		<!-- /grid-->
+	</div>
+	<!-- /view -->
+	<!-- <script src="assets/js/isotope.pkgd.min.js"></script> -->
+	<!-- <script src="assets/js/flickity.pkgd.min.js"></script> -->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type="text/javascript">
+		function copyToClipboard(element) {
+			// Create a "hidden" input
+			var aux = document.createElement("input");
+			// Assign it the value of the specified element
+			aux.setAttribute("value", element);
+			// Append it to the body
+			document.body.appendChild(aux);
+			// Highlight its content
+			aux.select();
+			// Copy the highlighted text
+			document.execCommand("copy");
+			// Remove it from the body
+			document.body.removeChild(aux);
+		}
+	</script>
+</body>
+</html>
