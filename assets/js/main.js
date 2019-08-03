@@ -78,7 +78,7 @@
 	function initFlickity() {
 		sliders.forEach(function(slider){
 			var flkty = new Flickity(slider, {
-				prevNextButtons: false,
+				prevNextButtons: true,
 				// fade: true,
 				wrapAround: true,
 				cellAlign: 'left',

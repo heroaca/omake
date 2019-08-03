@@ -106,15 +106,32 @@ title: MHA Omake
 			background-color: #f8f8f8;
 		}
 
-		.no-touch .slider:hover .flickity-button {
-			opacity: 1;
-		}
-
-		.slider .flickity-button {
-			opacity: 0;
+		.flickity-button {
 			-webkit-transition: opacity .3s;
 			transition: opacity .3s;
 		}
+
+		.no-touch .flickity-button, .flickity-prev-next-button {
+			opacity: 0;
+		}
+
+		.flickity-prev-next-button {
+			width: 30px;
+			height: 30px;
+			/*border-radius: 5px;*/
+			/*background: transparent;*/
+			/*background: #333;*/
+		}
+
+		.no-touch .grid__item:hover .flickity-button, .no-touch .grid__item:hover .flickity-prev-next-button {
+			opacity: 1;
+		}
+
+		/*@media screen and (max-width: 65em) {
+			.slider .flickity-button {
+				opacity: 1;
+			}
+		}*/
 	</style>
 </head>
 <body>
