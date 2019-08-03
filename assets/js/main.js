@@ -69,6 +69,7 @@
 			initIsotope();
 			initEvents();
 			grid.classList.remove('grid--loading');
+			new ClipboardJS('.action--buy');
 		});
 	}
 

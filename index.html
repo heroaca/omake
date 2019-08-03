@@ -44,6 +44,7 @@ title: MHA Omake
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
 	<script src="assets/js/modernizr.custom.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
 
 	<style type="text/css">
 		#quicksearch {
@@ -135,7 +136,7 @@ title: MHA Omake
 					<span class="meta__brand" style="display: none">{{ omake.description }}  {{ omake.type }}</span>
 					<span class="meta__price">{{ omake.volume }}</span>
 				</div>
-				<button class="action action--button action--buy" onclick="copyToClipboard('https://heroaca.github.io/omake/en/{{ filename }}.jpg')" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
+				<button class="action action--button action--buy" data-clipboard-text="https://heroaca.github.io/omake/en/{{ filename }}.jpg" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
 			</div>
 			{% endfor %}
 		</section>
@@ -149,20 +150,20 @@ title: MHA Omake
 	<script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script type="text/javascript">
-		function copyToClipboard(element) {
-			// Create a "hidden" input
-			var aux = document.createElement("input");
-			// Assign it the value of the specified element
-			aux.setAttribute("value", element);
-			// Append it to the body
-			document.body.appendChild(aux);
-			// Highlight its content
-			aux.select();
-			// Copy the highlighted text
-			document.execCommand("copy");
-			// Remove it from the body
-			document.body.removeChild(aux);
-		}
+		// function copyToClipboard(element) {
+		// 	// Create a "hidden" input
+		// 	var aux = document.createElement("input");
+		// 	// Assign it the value of the specified element
+		// 	aux.setAttribute("value", element);
+		// 	// Append it to the body
+		// 	document.body.appendChild(aux);
+		// 	// Highlight its content
+		// 	aux.select();
+		// 	// Copy the highlighted text
+		// 	document.execCommand("copy");
+		// 	// Remove it from the body
+		// 	document.body.removeChild(aux);
+		// }
 	</script>
 </body>
 </html>
