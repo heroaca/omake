@@ -167,12 +167,12 @@
 			flkties[i].select( index , true , true );
 		}
 
-		if (index == 1) {
-			index = 2;
-			cart.classList.add('yen-toggle');
-		} else {
+		if (index == 0) {
 			index = 1;
 			cart.classList.remove('yen-toggle');
+		} else {
+			index = 0;
+			cart.classList.add('yen-toggle');
 		}
 	}
 

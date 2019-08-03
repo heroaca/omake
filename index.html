@@ -169,10 +169,18 @@ title: MHA Omake
 			<!-- Grid items -->
 			{% for omake in site.omake %}
 			{% assign filename = omake.relative_path | replace: omake.collection, '' | replace: '/', ''  | replace: '_', '' | replace: '.md', '' %}
+
+			{% capture english_translation %}{% file_exists en/{{ filename }}.jpg %}{% endcapture %}
+			{% capture alt_scan %}{% file_exists alt/{{ filename }}.jpg %}{% endcapture %}
 			<div class="grid__item {{ omake.type }}">
 				<div class="slider">
-					<div class="slider__item"><img data-flickity-lazyload="en/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} in English" class="slider__img" /></div>
+					{% if english_translation == "true" %}
+						<div class="slider__item"><img data-flickity-lazyload="en/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} in English" class="slider__img" /></div>
+					{% endif %}
 					<div class="slider__item"><img data-flickity-lazyload="raw/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} Raw" class="slider__img" /></div>
+					{% if alt_scan == "true" %}
+						<div class="slider__item"><img data-flickity-lazyload="alt/{{ filename }}.jpg" alt="Alternate Version of Volume {{ omake.volume }} {{ omake.name }}" class="slider__img" /></div>
+					{% endif %}
 				</div>
 				<div class="meta">
 					<!-- <h3 class="meta__title">{{ filename }}</h3> -->
