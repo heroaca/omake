@@ -185,12 +185,15 @@ title: MHA Omake
 
 					{% if en_exist == 'true' %}
 						<div class="slider__item"><img data-flickity-lazyload="en/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} in English" class="slider__img" /></div>
+						{% assign en_exist = 'false' %}
 					{% endif %}
 
 					<div class="slider__item"><img data-flickity-lazyload="raw/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} Raw" class="slider__img" /></div>
 					
 					{% if alt_exist == 'true' %}
 						<div class="slider__item"><img data-flickity-lazyload="alt/{{ filename }}.jpg" alt="Alternate Version of Volume {{ omake.volume }} {{ omake.name }}" class="slider__img" /></div>
+
+						{% assign alt_exist = 'false' %}
 					{% endif %}
 					
 				</div>
