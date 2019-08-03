@@ -377,8 +377,8 @@
 
 @media screen and (max-width: 40em) {
 	.bar {
-		/*padding: .5em 4.5em .5em 0;*/
-		padding: .5em 0 .5em 0;
+		padding: .5em 4.5em .5em 0;
+		/*padding: .5em 0 .5em 0;*/
 	}
 	.flexbox .filter {
 		-webkit-justify-content: space-around;

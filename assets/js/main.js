@@ -60,7 +60,9 @@
 		buttonFilter,
 		// cart
 		cart = document.querySelector('.cart'),
-		cartItems = cart.querySelector('.cart__count');
+		cartItems = cart.querySelector('.cart__count'),
+		// Raw toggle
+		index = 1;
 
 	function init() {
 		// preload images
@@ -147,6 +149,8 @@
 		[].slice.call(grid.querySelectorAll('.grid__item')).forEach(function(item) {
 			item.querySelector('.action--buy').addEventListener('click', addToCart);
 		});
+
+		document.querySelector('.cart').addEventListener('click', toggleRaw);
 	}
 
 	function addToCart() {
@@ -156,6 +160,20 @@
 		// onEndAnimation(cartItems, function() {
 		// 	cart.classList.remove('cart--animate');
 		// });
+	}
+
+	function toggleRaw() {
+		for(var i = 0, len = flkties.length; i < len; ++i) {
+			flkties[i].select( index , true , true );
+		}
+
+		if (index == 1) {
+			index = 2;
+			cart.classList.add('yen-toggle');
+		} else {
+			index = 1;
+			cart.classList.remove('yen-toggle');
+		}
 	}
 
 	function recalcFlickities() {
