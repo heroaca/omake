@@ -252,7 +252,8 @@
 
 .no-touch .cart:focus,
 .no-touch .cart:hover {
-	color: #fff;
+	/*color: #fff;*/
+	color: #C70025;
 	outline: none;
 }
 
