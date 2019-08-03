@@ -82,7 +82,8 @@
 				cellAlign: 'left',
 				contain: true,
 				fullscreen: true,
-				// lazyload: true,
+				imagesLoaded: true,
+				lazyLoad: true,
 				resize: false
 			});
 

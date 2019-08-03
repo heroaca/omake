@@ -89,6 +89,17 @@ title: MHA Omake
 			border-radius: 5px;
 			max-height: 100%;
 		}
+
+		/* fade in image when loaded */
+		.slider__img {
+			transition: opacity 0.4s;
+			opacity: 0;
+		}
+
+		.slider__img.flickity-lazyloaded,
+		.slider__img.flickity-lazyerror {
+			opacity: 1;
+		}
 	</style>
 </head>
 <body>
@@ -128,8 +139,8 @@ title: MHA Omake
 			{% assign filename = omake.relative_path | replace: omake.collection, '' | replace: '/', ''  | replace: '_', '' | replace: '.md', '' %}
 			<div class="grid__item {{ omake.type }}">
 				<div class="slider">
-					<div class="slider__item"><img src="en/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} in English" /></div>
-					<div class="slider__item"><img src="raw/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} Raw" /></div>
+					<div class="slider__item"><img data-flickity-lazyload="en/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} in English" class="slider__img" /></div>
+					<div class="slider__item"><img data-flickity-lazyload="raw/{{ filename }}.jpg" alt="Volume {{ omake.volume }} {{ omake.name }} Raw" class="slider__img" /></div>
 				</div>
 				<div class="meta">
 					<h3 class="meta__title">{{ omake.name }}</h3>
