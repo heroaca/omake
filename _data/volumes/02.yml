@@ -21,4 +21,58 @@ entries:
     description: "Likes Himself French France 1-A UA Student"
     image: 02-0045
 
+  - type: profile
+    name: "Katsuki Bakugo"
+    description: "UA Files 1-A Student Kacchan nitroglycerin-like sweat winter explosion"
+    image: 02-0046
+
+  - type: profile
+    name: "Toru Hagakure"
+    description: "Full Nude Caramel Hidden-camera shows 6/16 dude UA 1-A Student"
+    image: 02-0065
+    
+  - type: profile
+    name: "Shoto Todoroki"
+    description: "1-A Student UA Recommendations"
+    image: 02-0085
+    
+  - type: profile
+    name: "Iida Tenya"
+    description: "Engine Calves 1-A Student UA Gear"
+    image: 02-0086
+    
+  - type: profile
+    name: "Mashirao Ojiro"
+    description: "UA 1-A student Martial Arts Monkey 5/28 Tail plain clothes alterations"
+    image: 02-0105
+
+  - type: profile
+    name: "Thirteen"
+    description: "13 Go Pro Hero UA Teacher USJ Support"
+    image: 02-0125
+
+  - type: profile
+    name: "Tsuyu Asui"
+    description: "Rain Jello 1-A UA Student cold froggy froppy guy"
+    image: 02-0147
+
+  - type: profile
+    name: "Minoru Mineta"
+    description: "Women grape 10/8 UA 1-A student entrance exam"
+    image: 02-0167
+
+  - type: info
+    name: "USJ Bird's Eye View"
+    description: "Map USJ Pro Hero UA Teacher Student 1-A"
+    image: 02-0170
+
+  - type: profile
+    name: "Momo Yaoyorozu"
+    description: "Reading encyclopedia UA 1-A Student Recommendation living things organic matter"
+    image: 02-0187
+
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 02-0300
 

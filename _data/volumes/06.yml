@@ -6,4 +6,9 @@ entries:
     description: "Deku, Izuku Midoriya, Tenya Iida, Stain Volume Cover"
     image: 06-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 06-0300
+
 

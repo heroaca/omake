@@ -6,4 +6,9 @@ entries:
     description: "Overhaul, Deku, Izuku Midoriya Volume Cover"
     image: 14-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 14-0300
+
 

@@ -6,4 +6,9 @@ entries:
     description: "Shoto Todoroki Volume Cover"
     image: 05-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 05-0300
+
 

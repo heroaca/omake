@@ -6,4 +6,14 @@ entries:
     description: "Endeavor, Hawks Volume Cover"
     image: 21-0001
 
+  - type: misc
+    name: "Vestiges"
+    description: "DFO Dad For One AFO Hisashi Midoriya Hisashi Shigaraki Daddy"
+    image: 21-0080
+
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 21-0300
+
 

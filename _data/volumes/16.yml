@@ -6,4 +6,9 @@ entries:
     description: "Eijiro Kirishima, Fat Gum, Tamaki Amajiki Volume Cover"
     image: 16-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 16-0300
+
 

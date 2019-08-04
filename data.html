@@ -180,6 +180,9 @@ title: MHA Omake
 						{% assign en_exist = 'true' %}
 						{% assign en_translated = 'translated translation English' %}
 					{% endif %}
+					{% if static_file.path contains 'raw' %}
+						{% assign raw_exist = 'true' %}
+					{% endif %}
 					{% if static_file.path contains 'alt' %}
 						{% assign alt_exist = 'true' %}
 					{% endif %}
@@ -203,7 +206,10 @@ title: MHA Omake
 						{% assign en_exist = 'false' %}
 					{% endif %}
 
-					<div class="slider__item"><img data-flickity-lazyload="raw/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Raw" class="slider__img" /></div>
+					{% if raw_exist == 'true' %}
+						<div class="slider__item"><img data-flickity-lazyload="raw/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Raw" class="slider__img" /></div>
+						{% assign raw_exist = 'false' %}
+					{% endif %}
 					
 					{% if alt_exist == 'true' %}
 						<div class="slider__item"><img data-flickity-lazyload="alt/{{ file.image }}.jpg" alt="Alternate Version of Volume {{ volume.volume }} {{ file.name }}" class="slider__img" /></div>

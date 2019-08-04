@@ -6,4 +6,9 @@ entries:
     description: "Deku, Izuku Midoriya, Eri, Mirio Togata, Kyoka Jiro, Tsuyu Asui, Ochaco Uraraka, La Brava, Gentle Criminal, Mashirao Ojiro, Nejire Hado, Ectoplasm, Hound Dog Volume Cover"
     image: 20-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 20-0300
+
 

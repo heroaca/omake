@@ -6,4 +6,9 @@ entries:
     description: "Deku, Izuku Midoriya, Muscular, Fumikage Tokoyami Volume Cover"
     image: 09-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 09-0300
+
 

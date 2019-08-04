@@ -6,4 +6,9 @@ entries:
     description: "All Might Volume Cover"
     image: 11-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 11-0300
+
 

@@ -6,4 +6,9 @@ entries:
     description: "Deku, Izuku Midoriya, Eri, Overhaul Volume Cover"
     image: 18-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 18-0300
+
 

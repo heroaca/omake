@@ -6,4 +6,9 @@ entries:
     description: "Katsuki Bakugo, Kacchan, Deku, Izuku Midoriya, Gang Orca, Shoto Todoroki, Inasa Yoarashi Volume Cover"
     image: 13-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 13-0300
+
 

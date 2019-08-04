@@ -6,4 +6,8 @@ entries:
     description: "Deku, Kacchan, Izuku Midoriya, Katsuki Bakugo, Tomura Shigaraki Volume Cover"
     image: 10-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 10-0300
 

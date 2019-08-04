@@ -6,4 +6,19 @@ entries:
     description: "Kacchan, Katsuki Bakugo Volume Cover"
     image: 07-0001
 
+  - type: misc
+    name: "Listen up!! A Tale from the Past"
+    description: "DFO Dad For One AFO Hisashi Midoriya Hisashi Shigaraki Daddy"
+    image: 07-0124
+
+  - type: misc
+    name: "Listen up!! A Tale from the Past"
+    description: "DFO Dad For One AFO Hisashi Midoriya Hisashi Shigaraki Daddy"
+    image: 07-0125
+
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 07-0300
+
 

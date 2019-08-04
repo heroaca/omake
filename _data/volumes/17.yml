@@ -6,4 +6,9 @@ entries:
     description: "Mirio Togata Volume Cover"
     image: 17-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 17-0300
+
 

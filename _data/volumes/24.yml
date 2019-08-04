@@ -6,4 +6,24 @@ entries:
     description: "Tomura Shigaraki, Spinner, Dabi, Himiko Toga, Twice, Mr. Compress Volume Cover"
     image: 24-0001
 
+  - type: cover
+    name: "Dust Jacket"
+    description: "Curious Spine MLA Meta Liberation Army Twice Back Flaps Front Flaps"
+    image: 24-0197
+
+  - type: cover
+    name: "Front Cover"
+    description: "Tomura Shigaraki Liberated Tenko Shimura"
+    image: 24-0198
+
+  - type: cover
+    name: "Back Cover"
+    description: "Twice Tease Shigaraki"
+    image: 24-0199
+
+  - type: cover
+    name: "Volume Back"
+    description: "Himiko Toga Middle School Twice Giran Dust Jacket Back"
+    image: 24-0200
+
 

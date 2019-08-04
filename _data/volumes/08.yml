@@ -6,4 +6,9 @@ entries:
     description: "Momo Yaoyorozu, Shota Aizawa, Minoru Mineta, Katsuki Bakugo, All Might, Deku, Kacchan, Izuku Midoriya, Tsuyu Asui, Shoto Todoroki Volume Cover"
     image: 08-0001
 
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 08-0300
+
 

@@ -57,8 +57,13 @@ entries:
     image: 01-0191
 
   - type: cover
-    name: "Kamui Woods"
-    description: "Pro Heroes Shinrin Kamui Izuku Midoriya Deku spine back flaps front flaps"
+    name: "Dust Cover"
+    description: "Pro Heroes Shinrin Kamui Woods Izuku Midoriya Deku spine back flaps front flaps"
     image: 01-0199
+
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 01-0300
 
 
