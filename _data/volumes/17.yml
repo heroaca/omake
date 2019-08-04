@@ -1,0 +1,9 @@
+volume: 17
+name: "Lemillion"
+entries:
+  - type: cover
+    name: "Volume Cover"
+    description: "Mirio Togata Volume Cover"
+    image: 17-0001
+
+

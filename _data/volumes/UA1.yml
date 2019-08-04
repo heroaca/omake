@@ -1,0 +1,9 @@
+volume: UA1
+name: "Ultra Archive Official Character Book"
+entries:
+  - type: cover
+    name: "Volume Cover"
+    description: ""
+    image: UA1-0001
+
+

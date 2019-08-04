@@ -2,13 +2,13 @@ volume: 01
 name: "Izuku Midoriya: Origin"
 entries:
   - type: cover
-    name: "Izuku Midoriya: Origin"
-    description: "Izuku Midoriya, All Might, Mount Lady, Kamui Woods, Endeavor, Present Mic, Eraser Head, Best Jeanist, Thirteen, Nezu, Cementoss, Backdraft Deku UA Pro Heroes Volume Cover"
+    name: "Volume Cover"
+    description: "Deku, Izuku Midoriya, All Might, Mount Lady, Kamui Woods, Endeavor, Present Mic, Eraser Head, Best Jeanist, Thirteen, Nezu, Cementoss, Backdraft Deku UA Pro Heroes"
     image: 01-0001
 
   - type: illustration
     name: "U.A. High"
-    description: "UA Izuku Midoriya: Origin Deku Bakugo Katsuki Uraraka Ochaco Iida Tenya"
+    description: "UA Izuku Midoriya: Origin Deku Kacchan Bakugo Katsuki Uraraka Ochaco Iida Tenya"
     image: 01-0003
 
   - type: profile

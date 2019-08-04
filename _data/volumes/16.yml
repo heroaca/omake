@@ -1,0 +1,9 @@
+volume: 16
+name: "Red Riot"
+entries:
+  - type: cover
+    name: "Volume Cover"
+    description: "Eijiro Kirishima, Fat Gum, Tamaki Amajiki Volume Cover"
+    image: 16-0001
+
+

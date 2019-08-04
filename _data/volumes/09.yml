@@ -1,0 +1,9 @@
+volume: 09
+name: "My Hero"
+entries:
+  - type: cover
+    name: "Volume Cover"
+    description: "Deku, Izuku Midoriya, Muscular, Fumikage Tokoyami Volume Cover"
+    image: 09-0001
+
+
