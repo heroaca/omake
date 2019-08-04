@@ -165,8 +165,12 @@ title: MHA Omake
 			<!-- Grid sizer for a fluid Isotope (Masonry) layout -->
 			<div class="grid__sizer"></div>
 			<!-- Grid items -->
-			{% for file in site.data.volumes %}
-
+			{% for volume_hash in site.data.volumes %}
+			{% assign volume = volume_hash[1] %}
+			
+			{% for file in volume.entries %}
+			
+			
 			{% assign en_translated = 'raw-only' %}
 			
 			{% for static_file in site.static_files %}
@@ -186,14 +190,14 @@ title: MHA Omake
 				<div class="slider">
 
 					{% if en_exist == 'true' %}
-						<div class="slider__item"><img data-flickity-lazyload="en/{{ file.image }}.jpg" alt="Volume {{ file.volume }} {{ file.name }} in English" class="slider__img" /></div>
+						<div class="slider__item"><img data-flickity-lazyload="en/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} in English" class="slider__img" /></div>
 						{% assign en_exist = 'false' %}
 					{% endif %}
 
-					<div class="slider__item"><img data-flickity-lazyload="raw/{{ file.image }}.jpg" alt="Volume {{ file.volume }} {{ file.name }} Raw" class="slider__img" /></div>
+					<div class="slider__item"><img data-flickity-lazyload="raw/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Raw" class="slider__img" /></div>
 					
 					{% if alt_exist == 'true' %}
-						<div class="slider__item"><img data-flickity-lazyload="alt/{{ file.image }}.jpg" alt="Alternate Version of Volume {{ file.volume }} {{ file.name }}" class="slider__img" /></div>
+						<div class="slider__item"><img data-flickity-lazyload="alt/{{ file.image }}.jpg" alt="Alternate Version of Volume {{ volume.volume }} {{ file.name }}" class="slider__img" /></div>
 						{% assign alt_exist = 'false' %}
 					{% endif %}
 					
@@ -202,10 +206,11 @@ title: MHA Omake
 					<!-- <h3 class="meta__title">{{ filename }}</h3> -->
 					<h3 class="meta__title">{{ file.name }}</h3>
 					<span class="meta__brand" style="display: none">{{ file.image }} {{ file.description }} {{ file.type }} {{ file.name }} {{ en_translated }}</span>
-					<span class="meta__price">Vol. {{ file.volume }}</span>
+					<span class="meta__price">Vol. {{ volume.volume }}</span>
 				</div>
 				<button class="action action--button action--buy" data-clipboard-text="https://heroaca.github.io/omake/en/{{ file.image }}.jpg" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
 			</div>
+			{% endfor %}
 			{% endfor %}
 		</section>
 		<!-- /grid-->

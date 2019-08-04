@@ -1,0 +1,64 @@
+volume: 01
+name: "Izuku Midoriya: Origin"
+entries:
+  - type: cover
+    name: "Izuku Midoriya: Origin"
+    description: "Izuku Midoriya, All Might, Mount Lady, Kamui Woods, Endeavor, Present Mic, Eraser Head, Best Jeanist, Thirteen, Nezu, Cementoss, Backdraft Deku UA Pro Heroes Volume Cover"
+    image: 01-0001
+
+  - type: illustration
+    name: "U.A. High"
+    description: "UA Izuku Midoriya: Origin Deku Bakugo Katsuki Uraraka Ochaco Iida Tenya"
+    image: 01-0003
+
+  - type: profile
+    name: "All Might"
+    description: "UA Pro Hero Teacher American Yakushima 6/10"
+    image: 01-0060
+
+  - type: profile
+    name: "Izuku Midoriya"
+    description: "Deku Katsudon 7/15 one-shot UA Student 1-A"
+    image: 01-0086
+
+  - type: profile
+    name: "Katsuki Bakugo"
+    description: "Kacchan UA 1-A Student 4/20 Spicy food mountain climbing rotten thief explosion genius"
+    image: 01-0110
+
+  - type: profile
+    name: "Ochaco Uraraka"
+    description: "1-A Class UA Student Starry skies Japanese food 12/27 Ochako"
+    image: 01-0130
+
+  - type: profile
+    name: "Tenya Iida"
+    description: "UA 1-A Class student 8/22 Studying beef stew"
+    image: 01-0150
+
+  - type: profile
+    name: "Izuku Midoriya"
+    description: "U.A. File 18 highschool Deku"
+    image: 01-0151
+
+  - type: profile
+    name: "Shota Aizawa"
+    description: "Eraserhead cats 11/8 UA Teacher rationality"
+    image: 01-0170
+
+  - type: info
+    name: "Afterword"
+    description: "Deku Ochaco Uraraka Tenya Iida Izuku Midoriya"
+    image: 01-0190
+
+  - type: misc
+    name: "Horikoshi's Assistants"
+    description: ""
+    image: 01-0191
+
+  - type: cover
+    name: "Kamui Woods"
+    description: "Pro Heroes Shinrin Kamui Izuku Midoriya Deku spine back flaps front flaps"
+    image: 01-0199
+
+
