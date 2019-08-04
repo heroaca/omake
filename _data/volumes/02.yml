@@ -72,6 +72,11 @@ entries:
     image: 02-0187
 
   - type: cover
+    name: "Dust Cover"
+    description: "Pro Heroes All Might Backdraft Musutafu Fire Department Fireman spine back flaps front flaps"
+    image: 02-0207
+
+  - type: cover
     name: "Volume Back"
     description: "Dust Jacket Back"
     image: 02-0300

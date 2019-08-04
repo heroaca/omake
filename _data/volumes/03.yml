@@ -6,6 +6,76 @@ entries:
     description: "Deku, Kacchan, Izuku Midoriya, Katsuki Bakugo, Shoto Todoroki, Eijiro Kirishima, Tomura Shigaraki Volume Cover"
     image: 03-0001
 
+  - type: illustration
+    name: "Mecha Dinosaur"
+    description: "Deku, Izuku Midoriya Mixed-up Junk Drawing"
+    image: 03-0002
+
+  - type: profile
+    name: "Eijiro Kirishima"
+    description: "UA 1-A Student manly menly tough guys 10/16 scar right eye U.A."
+    image: 03-0024
+
+  - type: profile
+    name: "Kyoka Jiro"
+    description: "UA 1-A Student Rock Music 8/1 bass eyephone jack U.A."
+    image: 03-0044
+
+  - type: profile
+    name: "Denki Kaminari"
+    description: "UA 1-A Student pikachu eletricity U.A."
+    image: 03-0064
+
+  - type: profile
+    name: "Mezo Shoji"
+    description: "UA 1-A Student takoyaki squid-ink pasta mask humanoid"
+    image: 03-0084
+
+  - type: profile
+    name: "Ochaco Uraraka"
+    description: "UA 1-A Student Zero Gravity special pads fingertips negate gravity throw up vomit"
+    image: 03-0085
+
+  - type: profile
+    name: "Principal Nezu"
+    description: "UA teacher rat brushing smoke 1/1 rare animal Quirk"
+    image: 03-0104
+
+  - type: profile
+    name: "Hanta Sero"
+    description: "UA 1-A Student tape spider-man 7/28 oranges soy product one-liners U.A."
+    image: 03-0126
+
+  - type: profile
+    name: "Fumikage Tokoyami"
+    description: "UA 1-A Student Dark Shadow cool 10/30 edgy apples U.A."
+    image: 03-0146
+
+  - type: profile
+    name: "Naomasa Tsukauchi"
+    description: "Police detective baseball 4/4"
+    image: 03-0166
+
+  - type: misc
+    name: "Meet the Assistants"
+    description: "Staff"
+    image: 03-0189
+
+  - type: cover
+    name: "Dust Cover"
+    description: "Pro Heroes Desutegoro Death Arms Kacchan Katsuki Bakugo spine back flaps front flaps"
+    image: 03-0191
+
+  - type: cover
+    name: "Front Cover"
+    description: "Kacchan Katsuki Bakugo"
+    image: 03-0192
+
+  - type: cover
+    name: "Back Cover"
+    description: "Kacchan Katsuki Bakugo"
+    image: 03-0192
+
   - type: cover
     name: "Volume Back"
     description: "Dust Jacket Back"

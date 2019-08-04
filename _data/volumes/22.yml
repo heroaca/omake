@@ -6,4 +6,73 @@ entries:
     description: "Deku, Izuku Midoriya, Tetsutetsu Tetsutetsu, Shoto Todoroki, Itsuka Kendo, Tenya Iida, Katsuki Bakugo, Kacchan, Momo Yaoyorozu Volume Cover"
     image: 22-0001
 
+  - type: illustration
+    name: "Mt. Lady"
+    description: "That which is inherited Mt Lady"
+    image: 22-0003
+
+  - type: profile
+    name: "Sen Kaibara"
+    description: "Photography 6/12 1-B UA"
+    image: 22-0020
+
+  - type: profile
+    name: "Kojiro Bondo"
+    description: "Building Plastic Models 12/23 TIE fighter X-wing 1-B UA"
+    image: 22-0032
+
+  - type: profile
+    name: "Setsuna Tokage"
+    description: "Dinosaurs 10/13 1-B UA Ashihara Lizard"
+    image: 22-0046
+
+  - type: illustration
+    name: "Mina Ashido"
+    description: "Lost Cover illustration joke computer crash froze"
+    image: 22-0062
+
+  - type: profile
+    name: "Togaru Kamakiri"
+    description: "Bug collecting 1/7 horsehair worm parasite 1-B UA"
+    image: 22-0078
+
+  - type: info
+    name: "1-B Hero Names"
+    description: "Itsuka Kendo Battle Fist, Setsuna Tokage Lizardy, Togaru Kamakiri Jack Mantis, Kojiro Bondo Plamo, Yosetsu Awase Welder"
+    image: 22-0094
+
+  - type: profile
+    name: "Yui Kodai"
+    description: "Matryoshka doll 12/19 1-B UA fan club"
+    image: 22-0108
+
+  - type: info
+    name: "The Gifts"
+    description: "Ashihara World Trigger Bettencourt Vigilantes Akiyama Yoco Yoko 4-koma Saguri-chan Tankentai Shonen Jump Square"
+    image: 22-0140
+
+  - type: illustration
+    name: "Midnight & Mirko"
+    description: "Bettencourt Vigilantes illegals Pro Hero UA Miruko"
+    image: 22-0156
+
+  - type: misc
+    name: "Setsuna's Costume"
+    description: "Costume regenerate lizard Daisuke Ashihara World Trigger Tokage Setsuna"
+    image: 22-0170
+
+  - type: cover
+    name: "Mudman"
+    description: "Spine Dust cover Back flap front flap Mudman Sero Hanta muscle buff hero costume 1-B Juzo Honenuki Juzou"
+    image: 22-0197
+
+  - type: cover
+    name: "Shiozaki Ibara"
+    description: "Prototype Front Cover Vine Maria 1-B UA"
+    image: 22-0198
+
+  - type: cover
+    name: "Sero Hanta"
+    description: "Hagakure Mineta Back Cover Tease"
+    image: 22-0199
 

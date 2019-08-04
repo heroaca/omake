@@ -59,7 +59,17 @@ entries:
   - type: cover
     name: "Dust Cover"
     description: "Pro Heroes Shinrin Kamui Woods Izuku Midoriya Deku spine back flaps front flaps"
-    image: 01-0199
+    image: 01-0195
+
+  - type: cover
+    name: "Front Cover"
+    description: "Prototype Izuku Midoriya Deku Katsuki Bakugo Kacchan Ochaco Uraraka All Might"
+    image: 01-0196
+
+  - type: cover
+    name: "All Might"
+    description: "Back Cover Tease"
+    image: 01-0197
 
   - type: cover
     name: "Volume Back"
