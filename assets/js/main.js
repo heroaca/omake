@@ -111,11 +111,19 @@
 		filterCtrls.forEach(function(filterCtrl) {
 			filterCtrl.addEventListener('click', function() {
 				buttonFilter = filterCtrl.getAttribute('data-filter');
+				qsRegex = new RegExp( quicksearch.value, 'gi' );
 
 				filterCtrl.parentNode.querySelector('.filter__item--selected').classList.remove('filter__item--selected');
 				filterCtrl.classList.add('filter__item--selected');
 				iso.arrange({
-					filter: filterCtrl.getAttribute('data-filter')
+					// filter: filterCtrl.getAttribute('data-filter')
+					filter: function() {
+						var $this = $(this);
+
+						var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+						var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+						return searchResult && buttonResult;
+					}
 				});
 				recalcFlickities();
 				iso.layout();
