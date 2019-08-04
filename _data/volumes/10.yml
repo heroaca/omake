@@ -7,6 +7,21 @@ entries:
     image: 10-0001
 
   - type: cover
+    name: "Dust Cover"
+    description: "Mt. Lady Kamui Woods Yuga Aoyama UA 1-A Student spine back flaps front flaps"
+    image: 10-0195
+
+  - type: cover
+    name: "Front Cover"
+    description: "Prototype Twice"
+    image: 10-0196
+
+  - type: cover
+    name: "Yuga Aoyama"
+    description: "Back Cover Tease"
+    image: 10-0197
+
+  - type: cover
     name: "Volume Back"
     description: "Dust Jacket Back"
     image: 10-0300

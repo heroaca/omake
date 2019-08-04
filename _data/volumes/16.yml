@@ -7,6 +7,21 @@ entries:
     image: 16-0001
 
   - type: cover
+    name: "Dust Cover"
+    description: "Tsuyu Asui Mezo Shoji 1-A UA Students spine back flaps front flaps"
+    image: 16-0197
+
+  - type: cover
+    name: "Front Cover"
+    description: "Twoga Toga Twice"
+    image: 16-0198
+
+  - type: cover
+    name: "Mezo Shoji"
+    description: "Back Cover Tease"
+    image: 16-0199
+    
+  - type: cover
     name: "Volume Back"
     description: "Dust Jacket Back"
     image: 16-0300

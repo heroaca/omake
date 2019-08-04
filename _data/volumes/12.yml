@@ -7,6 +7,21 @@ entries:
     image: 12-0001
 
   - type: cover
+    name: "Dust Cover"
+    description: "Denki Kaminari Shiketsu High Inasa Yoarashi Camie Kemy Utsushimi Seiji Shishikura spine back flaps front flaps"
+    image: 12-0195
+
+  - type: cover
+    name: "Front Cover"
+    description: "Prototype Shoto Todoroki 1-A UA Student"
+    image: 12-0196
+
+  - type: cover
+    name: "Denki Kaminari"
+    description: "Back Cover Tease"
+    image: 12-0197
+    
+  - type: cover
     name: "Volume Back"
     description: "Dust Jacket Back"
     image: 12-0300

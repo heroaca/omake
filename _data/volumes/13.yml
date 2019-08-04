@@ -7,6 +7,21 @@ entries:
     image: 13-0001
 
   - type: cover
+    name: "Dust Cover"
+    description: "Mashirao Ojiro Momo Yaoyorozu 1-A UA Student spine back flaps front flaps"
+    image: 13-0186
+
+  - type: cover
+    name: "Front Cover"
+    description: "Shiketsu UA Students Himiko Toga Nagamasa Mora Yo Shindo Ochaco Uraraka Tsuyu Asui"
+    image: 13-0187
+
+  - type: cover
+    name: "Mashirao Ojiro"
+    description: "Back Cover Tease"
+    image: 13-0188
+    
+  - type: cover
     name: "Volume Back"
     description: "Dust Jacket Back"
     image: 13-0300

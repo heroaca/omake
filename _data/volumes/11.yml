@@ -11,4 +11,17 @@ entries:
     description: "Dust Jacket Back"
     image: 11-0300
 
+  - type: cover
+    name: "Dust Cover"
+    description: "Ochaco Uraraka Eijiro Kirishima 1-A UA Student spine back flaps front flaps"
+    image: 11-0211
 
+  - type: cover
+    name: "Front Cover"
+    description: "Nana Shimura"
+    image: 11-0212
+
+  - type: cover
+    name: "Eijiro Kirishima"
+    description: "Back Cover Tease"
+    image: 11-0213

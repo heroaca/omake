@@ -7,6 +7,21 @@ entries:
     image: 15-0001
 
   - type: cover
+    name: "Dust Cover"
+    description: "Nejire Hado Minoru Mineta UA Students spine back flaps front flaps"
+    image: 15-0189
+
+  - type: cover
+    name: "Front Cover"
+    description: "Prototype Hanta Sero Tsuyu Asui Eijiro Kirishima"
+    image: 15-0190
+
+  - type: cover
+    name: "Minoru Mineta"
+    description: "Back Cover Tease"
+    image: 15-0191
+
+  - type: cover
     name: "Volume Back"
     description: "Dust Jacket Back"
     image: 15-0300

@@ -7,11 +7,6 @@ entries:
     image: 08-0001
 
   - type: cover
-    name: "Volume Back"
-    description: "Dust Jacket Back"
-    image: 08-0300
-
-  - type: cover
     name: "Dust Cover"
     description: "Izuku Midoriya Deku All Might Momo Yaoyorozu spine back flaps front flaps"
     image: 08-0194
@@ -25,3 +20,8 @@ entries:
     name: "Momo Yaoyorozu"
     description: "Back Cover Tease"
     image: 08-0196
+
+  - type: cover
+    name: "Volume Back"
+    description: "Dust Jacket Back"
+    image: 08-0300
