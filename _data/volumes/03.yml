@@ -68,13 +68,13 @@ entries:
 
   - type: cover
     name: "Front Cover"
-    description: "Kacchan Katsuki Bakugo"
+    description: "Kacchan Katsuki Bakugo Prototype"
     image: 03-0192
 
   - type: cover
     name: "Back Cover"
-    description: "Kacchan Katsuki Bakugo"
-    image: 03-0192
+    description: "Kacchan Katsuki Bakugo Tease"
+    image: 03-0193
 
   - type: cover
     name: "Volume Back"

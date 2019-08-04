@@ -77,6 +77,16 @@ entries:
     image: 02-0207
 
   - type: cover
+    name: "Front Cover"
+    description: "UA 1-A Student Ochaco Uraraka Prototype"
+    image: 02-0208
+
+  - type: cover
+    name: "Back Cover"
+    description: "Izuku Midoriya Deku Tease"
+    image: 02-0209
+
+  - type: cover
     name: "Volume Back"
     description: "Dust Jacket Back"
     image: 02-0300
