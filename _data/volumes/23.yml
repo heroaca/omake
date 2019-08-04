@@ -72,13 +72,13 @@ entries:
     image: 23-0197
 
   - type: cover
-    name: "Go! Slidin-Go!"
-    description: "Rikido Sato Satou Shonen Jump sticker sad fan letter dessert grateful spine back flaps front flaps"
+    name: "Dust Jacket"
+    description: "Go! Slidin-Go! Rikido Sato Satou Shonen Jump sticker sad fan letter dessert grateful spine back flaps front flaps"
     image: 23-0205
 
   - type: cover
-    name: "Ochaco Uraraka"
-    description: "Ochako Trivia Our Brawl Deku Eri Izuku Midoriya same face parts front cover layout sorry"
+    name: "Front Cover"
+    description: "Ochaco Uraraka Ochako Trivia Our Brawl Deku Eri Izuku Midoriya same face parts layout sorry"
     image: 23-0206
 
   - type: cover

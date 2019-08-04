@@ -62,17 +62,17 @@ entries:
     image: 22-0170
 
   - type: cover
-    name: "Mudman"
+    name: "Dust Jacket"
     description: "Spine Dust cover Back flap front flap Mudman Sero Hanta muscle buff hero costume 1-B Juzo Honenuki Juzou"
     image: 22-0197
 
   - type: cover
-    name: "Shiozaki Ibara"
-    description: "Prototype Front Cover Vine Maria 1-B UA"
+    name: "Front Cover"
+    description: "Prototype Shiozaki Ibara Vine Maria 1-B UA"
     image: 22-0198
 
   - type: cover
-    name: "Sero Hanta"
+    name: "Hanta Sero"
     description: "Hagakure Mineta Back Cover Tease"
     image: 22-0199
 

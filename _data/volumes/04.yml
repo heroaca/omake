@@ -11,4 +11,17 @@ entries:
     description: "Dust Jacket Back"
     image: 04-0300
 
+  - type: cover
+    name: "Dust Cover"
+    description: "1-A UA Student Ochaco Uraraka Froppy Tsuyu Asui Kyoka Jiro iPhone spine back flaps front flaps"
+    image: 04-0196
 
+  - type: cover
+    name: "Front Cover"
+    description: "Prototype Tsuyu Asui Froppy Tenya Iida Ingenium 1-A UA Student"
+    image: 04-0197
+
+  - type: cover
+    name: "Ochaco Uraraka"
+    description: "Back Cover Tease"
+    image: 04-0198

@@ -11,4 +11,17 @@ entries:
     description: "Dust Jacket Back"
     image: 05-0300
 
+  - type: cover
+    name: "Dust Cover"
+    description: "Fuyumi Todoroki Tenya Iida Kindergarten Teacher spine back flaps front flaps"
+    image: 05-0194
 
+  - type: cover
+    name: "Front Cover"
+    description: "Prototype Momo Yaoyorozu Mina Ashido 1-A UA Student"
+    image: 05-0195
+
+  - type: cover
+    name: "Tenya Iida"
+    description: "Back Cover Tease"
+    image: 05-0196
