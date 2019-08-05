@@ -103,7 +103,14 @@
 				// use outer width of grid-sizer for columnWidth
 				columnWidth: '.grid__sizer'
 			},
-			transitionDuration: '0.6s'
+			// transitionDuration: '0.6s',
+			transitionDuration: 0,
+			hiddenStyle: {
+				opacity: 0
+			},
+			visibleStyle: {
+				opacity: 1
+			}
 		});
 	}
 
