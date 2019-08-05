@@ -186,16 +186,19 @@ title: MHA Omake
 			
 			{% for static_file in site.static_files %}
 				{% if static_file.basename contains file.image %}
+					{% if static_file.path contains 'alt' %}
+						{% assign alt_exist = 'true' %}
+					{% endif %}
+
+					{% if static_file.path contains 'raw' %}
+						{% assign raw_exist = 'true' %}
+					{% endif %}
+					
 					{% if static_file.path contains 'en' %}
 						{% assign en_exist = 'true' %}
 						{% assign en_translated = 'translated translation English' %}
 					{% endif %}
-					{% if static_file.path contains 'raw' %}
-						{% assign raw_exist = 'true' %}
-					{% endif %}
-					{% if static_file.path contains 'alt' %}
-						{% assign alt_exist = 'true' %}
-					{% endif %}
+					
 				{% endif %}
 			{% endfor %}
 
@@ -207,23 +210,35 @@ title: MHA Omake
 				{% capture volume_name %}Ultra Analysis{% endcapture %}
 			{% endif %}
 
+			{% if alt_exist == 'true' %}
+				{% assign copy_link = 'alt' %}
+			{% endif %}
+
+			{% if raw_exist == 'true' %}
+				{% assign copy_link = 'raw' %}
+			{% endif %}
+
+			{% if en_exist == 'true' %}
+				{% assign copy_link = 'en' %}
+			{% endif %}
+
 			
 			<div class="grid__item {{ file.type }}">
 				<div class="slider">
 
 					{% if en_exist == 'true' %}
 						<div class="slider__item"><img data-flickity-lazyload="en/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} in English" class="slider__img" /></div>
-						{% assign en_exist = 'false' %}
+						
 					{% endif %}
 
 					{% if raw_exist == 'true' %}
 						<div class="slider__item"><img data-flickity-lazyload="raw/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Raw" class="slider__img" /></div>
-						{% assign raw_exist = 'false' %}
+						
 					{% endif %}
 					
 					{% if alt_exist == 'true' %}
 						<div class="slider__item"><img data-flickity-lazyload="alt/{{ file.image }}.jpg" alt="Alternate Version of Volume {{ volume.volume }} {{ file.name }}" class="slider__img" /></div>
-						{% assign alt_exist = 'false' %}
+						
 					{% endif %}
 					
 				</div>
@@ -233,8 +248,15 @@ title: MHA Omake
 					<span class="meta__brand" style="display: none">{{ file.image }} {{ file.description }} {{ file.type }} {{ file.name }} {{ en_translated }}</span>
 					<span class="meta__price">{{ volume_name }}</span>
 				</div>
-				<button class="action action--button action--buy" data-clipboard-text="https://heroaca.github.io/omake/en/{{ file.image }}.jpg" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
+				<button class="action action--button action--buy" data-clipboard-text="https://heroaca.github.io/omake/{{ copy_link }}/{{ file.image }}.jpg" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
 			</div>
+
+			<!-- Reset Variables -->
+			{% assign en_exist = 'false' %}
+			{% assign raw_exist = 'false' %}
+			{% assign alt_exist = 'false' %}
+			{% assign copy_link = 'raw' %}
+
 			{% endfor %}
 			{% endfor %}
 		</section>
@@ -262,7 +284,7 @@ title: MHA Omake
 		// 	// Remove it from the body
 		// 	document.body.removeChild(aux);
 		// }
-		
+
 		// $(function () {
 		// 	var focusedElement;
 		// 	$(document).on('focus', 'input', function () {
