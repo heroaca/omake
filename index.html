@@ -52,13 +52,13 @@ title: MHA Omake
 			font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 			margin: 0;
 			padding: 0 0 0.15em;
-			width: 100%;
+			width: 80%;
 			border: none;
 			border-bottom: 2px solid rgba(0,0,0,0.2);
 			background-color: transparent;
 			color: #fffed8;
 			text-overflow: ellipsis;
-			font-size: 2.5em;
+			font-size: 2em;
 			border-radius: 0;
 		}
 
@@ -130,6 +130,12 @@ title: MHA Omake
 		.flickity-button:disabled {
   			display: none;
 		}
+
+		.search-inline { 
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+		}
 	</style>
 </head>
 <body>
@@ -156,7 +162,11 @@ title: MHA Omake
 		<header class="bp-header cf">
 			<span>MHA Archives <span class="bp-icon bp-icon-about" data-content="MHA Archives is a collection of My Hero Academia resources that MHA fans may find interesting."></span></span>
 			<h1 style="line-height: 1.5">Volume Extras <span>powered by <a href="http://isotope.metafizzy.co/">Isotope</a> &amp; <a href="http://flickity.metafizzy.co/">Flickity</a></span></h1>
-			<p><input type="text" id="quicksearch" placeholder="Search" /></p>
+			<p class="search-inline">
+				<input type="text" id="quicksearch" placeholder="Search" />
+				
+				<button class="action action--button search-button" ><i class="fa fa-search"></i><span class="text-hidden">Copy Link</span></button>
+			</p>
 		</header>
 		<!-- Grid -->
 		<section class="grid grid--loading">
@@ -252,6 +262,15 @@ title: MHA Omake
 		// 	// Remove it from the body
 		// 	document.body.removeChild(aux);
 		// }
+		
+		// $(function () {
+		// 	var focusedElement;
+		// 	$(document).on('focus', 'input', function () {
+  //               if (focusedElement == this) return; //already focused, return so user can now place cursor at specific point in input.
+  //               focusedElement = this;
+  //               setTimeout(function () { focusedElement.select(); }, 50); //select all text in any field on focus for easy re-entry. Delay sightly to allow focus to "stick" before selecting.
+  //           });
+		// });
 	</script>
 </body>
 </html>

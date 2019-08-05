@@ -138,7 +138,8 @@
 		});
 
 		// use value of search field to filter
-		quicksearch.addEventListener('keyup', throttle(function(ev) {
+		// quicksearch.addEventListener('keyup', throttle(function(ev) {
+		document.querySelector('.search-button').addEventListener('click', throttle(function(ev) {
 			qsRegex = new RegExp( quicksearch.value, 'gi' );
 			iso.arrange({
 				filter: function() {
@@ -153,6 +154,12 @@
 			iso.layout();
 		}));
 
+		quicksearch.addEventListener("keyup", function(event) {
+			event.preventDefault();
+			if (event.keyCode === 13) {
+				document.querySelector('.search-button').click();
+			}
+		});
 
 		// window resize / recalculate sizes for both flickity and isotope/masonry layouts
 		window.addEventListener('resize', throttle(function(ev) {
