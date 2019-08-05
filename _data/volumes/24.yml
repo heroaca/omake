@@ -3,8 +3,68 @@ name: "All It Takes Is One Bad Day"
 entries:
   - type: cover
     name: "Volume Cover"
-    description: "Tomura Shigaraki, Spinner, Dabi, Himiko Toga, Twice, Mr. Compress Volume Cover"
+    description: "Tomura Shigaraki, Spinner, Dabi, Himiko Toga, Jin Bubaigawara, Twice, Mr. Compress Volume Cover"
     image: 24-0001
+
+  - type: illustration
+    name: "Twice"
+    description: "Jin Bubaigawara My Villain Academia Bad Man's Parade No Smoking Smoke"
+    image: 24-0003
+
+  - type: info
+    name: "The 5th Anniversary"
+    description: ""
+    image: 24-0022
+
+  - type: profile
+    name: "Himiko Toga"
+    description: "Blood Pomegranate 8/7 League of Villains Alliance"
+    image: 24-0038
+
+  - type: info
+    name: "No. 227 Sleepy"
+    description: "Shigaraki Tomura Sleeping Zzz"
+    image: 24-0054
+
+  - type: info
+    name: "The Trashed"
+    description: "Unmasked Twice"
+    image: 24-0070
+
+  - type: illustration
+    name: "Feel Good Inc."
+    description: "Meta Liberation Army MLA"
+    image: 24-0088
+
+  - type: profile
+    name: "Twice"
+    description: "Jin Bubaigawara 5/10 Cigarette Smoking League of Villains Alliance"
+    image: 24-0104
+
+  - type: info
+    name: "THE This Guy is Fun to Draw"
+    description: "ReDestro Nose"
+    image: 24-0120
+
+  - type: info
+    name: "The Let’s All Draw Twice Corner!"
+    description: "Jin Bubaigawara Noguchi Editor"
+    image: 24-0136
+
+  - type: profile
+    name: "Spinner"
+    description: "Shuichi Iguchi Cosplay 8/8 video games League of Villains Alliance"
+    image: 24-0152
+
+  - type: illustration
+    name: "Dabi and Shigaraki"
+    description: "Bettencourt Vigilantes"
+    image: 24-0188
+
+  - type: info
+    name: "Vigilantes Vol.7"
+    description: "Bettencourt"
+    image: 24-0189
 
   - type: cover
     name: "Dust Jacket"
@@ -18,7 +78,7 @@ entries:
 
   - type: cover
     name: "Twice"
-    description: "Back Cover Twice Tease Shigaraki"
+    description: "Jin Bubaigawara Back Cover Twice Tease"
     image: 24-0199
 
   - type: cover
