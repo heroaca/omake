@@ -33,7 +33,7 @@ entries:
 
   - type: info
     name: "Bakugo's AP Shot"
-    description: "Bakugo Katsuki passerbys explosion Bakugou"
+    description: "Kacchan Bakugo Katsuki passerbys explosion Bakugou"
     image: 23-0098
 
   - type: profile
@@ -45,6 +45,11 @@ entries:
     name: "CRC"
     description: "Creature Rejection Clan radical violent crimes super power animal rejection clan face border clan fundamentalist shigaraki"
     image: 23-0130
+
+  - type: info
+    name: "April Fools"
+    description: "Kaiju Deku Izuku Midoriya Katsuki Bakugo Kacchan Tenya Iida Shoto Todoroki Ochaco Uraraka"
+    image: 23-0146
 
   - type: illustration
     name: "Johnny"
@@ -68,7 +73,7 @@ entries:
 
   - type: illustration
     name: "Gege Akutami"
-    description: "Akutami-sensei Villain Pro Hero JJK Jujutsu Kaisen All Might Shigaraki Tomura Dabi Compress Spinner Toga twice Deku Izuku Midoriya Bakugo Katsuki Todoroki Shoto Shouto Quirk Attack Honor Admire"
+    description: "Akutami-sensei Villain Pro Hero JJK Jujutsu Kaisen All Might Shigaraki Tomura Dabi Compress Spinner Toga twice Deku Izuku Midoriya Bakugo Katsuki Kacchan Todoroki Shoto Shouto Quirk Attack Honor Admire"
     image: 23-0197
 
   - type: cover
