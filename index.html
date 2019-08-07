@@ -159,8 +159,9 @@ title: MHA Omake
 	<!-- Main view -->
 	<div class="view">
 		<!-- Blueprint header -->
+		<!-- MHA Archives is a collection of My Hero Academia resources that MHA fans may find interesting. -->
 		<header class="bp-header cf">
-			<span>MHA Archives <span class="bp-icon bp-icon-about" data-content="MHA Archives is a collection of My Hero Academia resources that MHA fans may find interesting."></span></span>
+			<span>MHA Archives <span class="bp-icon bp-icon-about" data-content="Click on pages to copy the link to them. Toggle between RAW and translation with the circle button."></span></span>
 			<h1 style="line-height: 1.5">Volume Extras <span>powered by <a href="http://isotope.metafizzy.co/">Isotope</a> &amp; <a href="http://flickity.metafizzy.co/">Flickity</a></span></h1>
 			<p class="search-inline">
 				<input type="text" id="quicksearch" placeholder="Search" />
@@ -227,17 +228,17 @@ title: MHA Omake
 				<div class="slider">
 
 					{% if en_exist == 'true' %}
-						<div class="slider__item"><img data-flickity-lazyload="en/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} in English" class="slider__img" /></div>
+						<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/en/{{ file.image }}.jpg" ><img data-flickity-lazyload="en/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} in English" class="slider__img" /></div>
 						
 					{% endif %}
 
 					{% if raw_exist == 'true' %}
-						<div class="slider__item"><img data-flickity-lazyload="raw/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Raw" class="slider__img" /></div>
+						<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/raw/{{ file.image }}.jpg" ><img data-flickity-lazyload="raw/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Raw" class="slider__img" /></div>
 						
 					{% endif %}
 					
 					{% if alt_exist == 'true' %}
-						<div class="slider__item"><img data-flickity-lazyload="alt/{{ file.image }}.jpg" alt="Alternate Version of Volume {{ volume.volume }} {{ file.name }}" class="slider__img" /></div>
+						<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/alt/{{ file.image }}.jpg" ><img data-flickity-lazyload="alt/{{ file.image }}.jpg" alt="Alternate Version of Volume {{ volume.volume }} {{ file.name }}" class="slider__img" /></div>
 						
 					{% endif %}
 					
