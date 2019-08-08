@@ -56,6 +56,7 @@
 		filterCtrls = [].slice.call(document.querySelectorAll('.filter > button')),
 		// quick search
 		quicksearch = document.getElementById("quicksearch"),
+		searchString = [],
 		qsRegex,
 		buttonFilter,
 		// cart
@@ -119,7 +120,8 @@
 		filterCtrls.forEach(function(filterCtrl) {
 			filterCtrl.addEventListener('click', function() {
 				buttonFilter = filterCtrl.getAttribute('data-filter');
-				qsRegex = new RegExp( quicksearch.value, 'gi' );
+				searchString = '(?=.*' + quicksearch.value.split(/\,|\s/).join(')(?=.*') + ')';
+				qsRegex = new RegExp( searchString, 'gi' );
 
 				filterCtrl.parentNode.querySelector('.filter__item--selected').classList.remove('filter__item--selected');
 				filterCtrl.classList.add('filter__item--selected');
@@ -141,7 +143,8 @@
 		// use value of search field to filter
 		// quicksearch.addEventListener('keyup', throttle(function(ev) {
 		document.querySelector('.search-button').addEventListener('click', throttle(function(ev) {
-			qsRegex = new RegExp( quicksearch.value, 'gi' );
+			searchString = '(?=.*' + quicksearch.value.split(/\,|\s/).join(')(?=.*') + ')';
+			qsRegex = new RegExp( searchString, 'gi' );
 			iso.arrange({
 				filter: function() {
 					var $this = $(this);

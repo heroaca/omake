@@ -98,8 +98,9 @@
 .meta {
 	position: relative;
 	margin: 10px 0 0;
+	text-align: center;
 	/*padding: 0 60px 0 0;*/
-	text-align: left;
+	/*text-align: left;*/
 }
 
 .meta__brand {
