@@ -74,11 +74,12 @@
 			initIsotope();
 
 			initEvents();
-			grid.classList.remove('grid--loading');
 			new ClipboardJS('.action--buy');
 			new ClipboardJS('.slider__item');
 
 			arrangeIso();
+			
+			grid.classList.remove('grid--loading');
 		});
 	}
 
