@@ -254,7 +254,7 @@ title: MHA Omake
 				<div class="meta">
 					<!-- <h3 class="meta__title">{{ filename }}</h3> -->
 					<h3 class="meta__title">{{ file.name }}</h3>
-					<span class="meta__brand" style="display: none">{{ file.description }} {{ file.type }} {{ file.name }} {{ en_translated }}</span>
+					<span class="meta__brand" style="display: none">{{ file.description }} {{ file.type }} {{ file.name }} {{ en_translated }} {{ volume_name }}</span>
 					<span class="meta__price">{{ volume_name }}</span>
 				</div>
 				<button class="action action--button action--buy" data-clipboard-text="https://heroaca.github.io/omake/{{ copy_link }}/{{ file.image }}.jpg" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
@@ -278,30 +278,5 @@ title: MHA Omake
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script type="text/javascript">
-		// function copyToClipboard(element) {
-		// 	// Create a "hidden" input
-		// 	var aux = document.createElement("input");
-		// 	// Assign it the value of the specified element
-		// 	aux.setAttribute("value", element);
-		// 	// Append it to the body
-		// 	document.body.appendChild(aux);
-		// 	// Highlight its content
-		// 	aux.select();
-		// 	// Copy the highlighted text
-		// 	document.execCommand("copy");
-		// 	// Remove it from the body
-		// 	document.body.removeChild(aux);
-		// }
-
-		// $(function () {
-		// 	var focusedElement;
-		// 	$(document).on('focus', 'input', function () {
-  //               if (focusedElement == this) return; //already focused, return so user can now place cursor at specific point in input.
-  //               focusedElement = this;
-  //               setTimeout(function () { focusedElement.select(); }, 50); //select all text in any field on focus for easy re-entry. Delay sightly to allow focus to "stick" before selecting.
-  //           });
-		// });
-	</script>
 </body>
 </html>

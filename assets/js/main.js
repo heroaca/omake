@@ -68,12 +68,17 @@
 	function init() {
 		// preload images
 		imagesLoaded(grid, function() {
+			getFilters();
+
 			initFlickity();
 			initIsotope();
+
 			initEvents();
 			grid.classList.remove('grid--loading');
 			new ClipboardJS('.action--buy');
 			new ClipboardJS('.slider__item');
+
+			arrangeIso();
 		});
 	}
 
@@ -177,6 +182,48 @@
 		});
 
 		document.querySelector('.cart').addEventListener('click', toggleRaw);
+	}
+
+	// URL PARAMS
+	function getUrlVars() {
+		var vars = {};
+		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+			vars[key] = value;
+		});
+		return vars;
+	}
+
+	function getUrlParam(parameter, defaultvalue){
+		var urlparameter = defaultvalue;
+		if(window.location.href.indexOf(parameter) > -1){
+			urlparameter = getUrlVars()[parameter];
+		}
+		return urlparameter;
+	}
+
+	function getFilters() {
+		var urlString = getUrlParam('s', '');
+
+		if (urlString != "") {
+			quicksearch.value = decodeURI(urlString).split(/\+/).join(' ');
+		}
+	}
+
+	function arrangeIso() {
+		// searchString = '(?=.*' + urlString.split(/\+|\s/).join(')(?=.*') + ')';
+		searchString = '(?=.*' + quicksearch.value.split(/\,|\s/).join(')(?=.*') + ')';
+		qsRegex = new RegExp( searchString, 'gi' );
+		iso.arrange({
+			filter: function() {
+				var $this = $(this);
+
+				var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+				var buttonResult = buttonFilter ? $this.is( buttonFilter ) : true;
+				return searchResult && buttonResult;
+			}
+		});
+		recalcFlickities();
+		iso.layout();
 	}
 
 	function addToCart() {
