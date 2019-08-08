@@ -98,7 +98,7 @@
 .meta {
 	position: relative;
 	margin: 10px 0 0;
-	padding: 0 60px 0 0;
+	/*padding: 0 60px 0 0;*/
 	text-align: left;
 }
 
@@ -119,7 +119,7 @@
 .meta__price {
 	font-size: .95em;
 	font-weight: bold;
-	position: absolute;
+	/*position: absolute;*/
 	top: .45em;
 	right: .25em;
 	color: #595b64;
