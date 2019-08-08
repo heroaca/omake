@@ -203,12 +203,19 @@ title: MHA Omake
 				{% endif %}
 			{% endfor %}
 
-			{% capture volume_name %}Vol. {{ volume.volume}}{% endcapture %}
+			{% capture volume_name %}Vol. {{ volume.volume }}{% endcapture %}
 			{% if volume.volume contains 'UA1' %}
 				{% capture volume_name %}Ultra Archive{% endcapture %}
 			{% endif %}
 			{% if volume.volume contains 'UA2' %}
 				{% capture volume_name %}Ultra Analysis{% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'WSJ' %}
+				{% capture volume_name %}WSJ{% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'V' %}
+				{% assign vig_no = volume.volume | replace: 'V', '' %}
+				{% capture volume_name %}Vigs Vol. {{ vig_no }} {% endcapture %}
 			{% endif %}
 
 			{% if alt_exist == 'true' %}
