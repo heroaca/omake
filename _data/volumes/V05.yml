@@ -1,0 +1,29 @@
+volume: V05
+name: "Day-Tripping Down to Naniwa!"
+entries:
+  - type: cover
+    name: "Volume Cover"
+    description: "Shota Aizawa, Fat Gum, Koichi Haimawari, Gentleman Nice Guy Crawler Volume Cover"
+    image: V05-0001
+
+  - type: cover
+    name: "Dust Cover"
+    description: "Makoto Tsukauchi spine back flaps front flaps"
+    image: V05-0195
+
+  - type: cover
+    name: "Front Cover"
+    description: "Not in Viz Takeshi Kuroiwa Knuckleduster"
+    image: V05-0196
+
+  - type: cover
+    name: "Eraserhead"
+    description: "Not in Viz Shota Aizawa Back Cover"
+    image: V05-0197
+    
+  - type: cover
+    name: "Volume Back"
+    description: "Takeshi Kuroiwa Knuckleduster Dust Jacket Back"
+    image: V05-0300
+
+

@@ -1,0 +1,29 @@
+volume: V04
+name: "Family"
+entries:
+  - type: cover
+    name: "Volume Cover"
+    description: "Knuckleduster, Kuin Hachisuka Queen Bee Takeshi Kuroiwa, Volume Cover"
+    image: V04-0001
+
+  - type: cover
+    name: "Dust Cover"
+    description: "Kuin Hachisuka Queen Bee spine back flaps front flaps"
+    image: V04-0195
+
+  - type: cover
+    name: "Front Cover"
+    description: "Not in Viz Kazuho Haneyama, Pop Step"
+    image: V04-0196
+
+  - type: cover
+    name: "Kuin Hachisuka"
+    description: "Not in Viz Queen Bee Back Cover"
+    image: V04-0197
+    
+  - type: cover
+    name: "Volume Back"
+    description: "Koichi Haimawari, Kazuho Haneyama Pop Step Gentleman Nice Guy Crawler Dust Jacket Back"
+    image: V04-0300
+
+

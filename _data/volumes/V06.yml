@@ -1,0 +1,29 @@
+volume: V06
+name: "A Rational Man"
+entries:
+  - type: cover
+    name: "Volume Cover"
+    description: "Eraserhead Shota Aizawa, Nemuri Kayama, Pop Step Kazuho Haneyama, Koichi Haimawari, Toshinori Yagi, Naomasa Tsukauchi, Jiro Hotta, Ichiro Hotta Gentleman Nice Guy Crawler Volume Cover"
+    image: V06-0001
+
+  - type: cover
+    name: "Dust Cover"
+    description: "Shota Aizawa, Eraserhead spine back flaps front flaps"
+    image: V06-0197
+
+  - type: cover
+    name: "Front Cover"
+    description: "Not in Viz Number 6 No. Speedster"
+    image: V06-0198
+
+  - type: cover
+    name: "Mightnight and Tsukauchi"
+    description: "Not in Viz Midnight Naomasa Tsukauchi Back Cover"
+    image: V06-0199
+    
+  - type: cover
+    name: "Volume Back"
+    description: "Speedster Number 6 No. Dust Jacket Back"
+    image: V06-0300
+
+
