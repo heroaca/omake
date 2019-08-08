@@ -205,7 +205,7 @@
 		var urlString = getUrlParam('s', '');
 
 		if (urlString != "") {
-			quicksearch.value = decodeURI(urlString).split(/\+/).join(' ');
+			quicksearch.value = decodeURI(urlString).split(/\+|\,|\-|\_/).join(' ');
 		}
 	}
 
