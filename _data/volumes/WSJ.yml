@@ -11,4 +11,184 @@ entries:
     description: "Not in Viz God Shoto Todoroki Mina Ashido Eijiro Kirishima Denki Kaminari Ochaco Uraraka"
     image: WSJ-1936
 
+  - type: misc
+    name: "All Might's Signature"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0100
+
+  - type: profile
+    name: "Izuku Midoriya"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0101
+
+  - type: profile
+    name: "All Might"
+    description: "Not in Viz Toshinori Yagi Deku's Hero Analysis Notes U.A. UA Teacher Pro Hero"
+    image: WSJ-0102
+
+  - type: profile
+    name: "Katsuki Bakugo"
+    description: "Not in Viz Kacchan Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0103
+
+  - type: profile
+    name: "Shoto Todoroki"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0104
+
+  - type: profile
+    name: "Neito Monoma"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-B"
+    image: WSJ-0105
+
+  - type: profile
+    name: Eijiro Kirishima
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0106
+
+  - type: profile
+    name: Denki Kaminari
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0107
+
+  - type: profile
+    name: "Tsuyu Asui"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0108
+
+  - type: profile
+    name: "Momo Yaoyorozu"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0109
+
+  - type: profile
+    name: "Fumikage Tokoyami"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0110
+
+  - type: profile
+    name: "Tenya Iida"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0111
+
+  - type: profile
+    name: "Kyoka Jiro"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0112
+
+  - type: profile
+    name: "Ochaco Uraraka"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0113
+
+  - type: profile
+    name: "Shota Aizawa"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0114
+
+  - type: profile
+    name: "Mashirao Ojiro"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0115
+
+  - type: profile
+    name: "Tetsutetsu Tetsutetsu"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-B"
+    image: WSJ-0116
+
+  - type: profile
+    name: "Hanta Sero"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0117
+
+  - type: profile
+    name: "Rikido Sato"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0118
+
+  - type: profile
+    name: "Yuga Aoyama"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0119
+
+  - type: profile
+    name: "Mina Ashido"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0120
+
+  - type: profile
+    name: "Mezo Shoji"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0121
+
+  - type: profile
+    name: "Minoru Mineta"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0122
+
+  - type: profile
+    name: "Toru Hagakure"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0123
+
+  - type: profile
+    name: "Mei Hatsume"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-H"
+    image: WSJ-0124
+
+  - type: profile
+    name: "Koji Koda"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-A"
+    image: WSJ-0125
+
+  - type: profile
+    name: "Gran Torino"
+    description: "Not in Viz Deku's Hero Analysis Notes Pro Hero"
+    image: WSJ-0126
+
+  - type: profile
+    name: "Endeavor"
+    description: "Not in Viz Enji Todoroki Deku's Hero Analysis Notes Pro Hero"
+    image: WSJ-0127
+
+  - type: profile
+    name: "Itsuka Kendo"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-B"
+    image: WSJ-0128
+
+  - type: profile
+    name: "Midnight"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Teacher Pro Hero"
+    image: WSJ-0129
+
+  - type: profile
+    name: "Ibara Shiozaki"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-B"
+    image: WSJ-0130
+
+  - type: profile
+    name: "Present Mic"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Teacher Pro Hero"
+    image: WSJ-0131
+
+  - type: profile
+    name: "Juzo Honenuki"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Student Class 1-B"
+    image: WSJ-0132
+
+  - type: profile
+    name: "Best Jeanist"
+    description: "Not in Viz Deku's Hero Analysis Notes Pro Hero"
+    image: WSJ-0133
+
+  - type: profile
+    name: "Ectoplasm"
+    description: "Not in Viz Deku's Hero Analysis Notes U.A. UA Teacher Pro Hero"
+    image: WSJ-0134
+
+  - type: profile
+    name: "Kamui Woods"
+    description: "Not in Viz Shinrin Kamui Deku's Hero Analysis Notes Pro Hero"
+    image: WSJ-0135
+
 
