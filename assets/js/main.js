@@ -205,7 +205,7 @@
 	function getFilters() {
 		var urlString = getUrlParam('s', '');
 
-		if (urlString != "" && urlString != "undefined") {
+		if (urlString != "" && urlString) {
 			quicksearch.value = decodeURI(urlString).split(/\+|\,|\-|\_/).join(' ');
 		}
 	}
