@@ -6,6 +6,11 @@ entries:
     description: "Koichi Haimawari, Kazuho Haneyama, Pop Step Makoto Tsukauchi, Christopher Skyline Captain Celebrity Gentleman Nice Guy Crawler Knuckleduster Volume Cover"
     image: V03-0001
 
+  - type: info
+    name: "professional"
+    description: "Dictionary Definition Wikipedia"
+    image: V03-0003
+
   - type: illustration
     name: "Message from Horikoshi"
     description: "Kuin Hachisuka Queen Bee Kohei Horikoshi"

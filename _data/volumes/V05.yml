@@ -6,6 +6,11 @@ entries:
     description: "Shota Aizawa, Fat Gum, Taishiro Toyomitsu Koichi Haimawari, Gentleman Nice Guy Crawler Volume Cover"
     image: V05-0001
 
+  - type: info
+    name: "secret identity"
+    description: "Dictionary Definition Wikipedia"
+    image: V05-0003
+
   - type: illustration
     name: "Message from Horikoshi"
     description: "Monika Kaniyashiki Fat Gum Taishiro Toyomitsu Kohei Horikoshi"

@@ -6,6 +6,11 @@ entries:
     description: "Koichi Haimawari, Takeshi Kuroiwa Gentleman Nice Guy Crawler Knuckleduster Volume Cover"
     image: V01-0001
 
+  - type: info
+    name: "vigilante"
+    description: "Dictionary Definition Wikipedia"
+    image: V01-0003
+
   - type: profile
     name: "Koichi Haimawari"
     description: "Gentleman Nice Guy The Crawler 2/22 Slide and Glide"

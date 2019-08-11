@@ -6,6 +6,11 @@ entries:
     description: "Stendhal Stain Takeshi Kuroiwa, Koichi Haimawari, Tensei Iida, Chizome Akaguro, Gentleman Nice Guy Crawler Knuckleduster Volume Cover"
     image: V02-0001
 
+  - type: info
+    name: "villain"
+    description: "Dictionary Definition Wikipedia"
+    image: V02-0003
+
   - type: illustration
     name: "Message from Horikoshi"
     description: "Koichi Haimawari, Kazuho Haneyama, Pop Step Gentleman Nice Guy Crawler Kohei Horikoshi"
