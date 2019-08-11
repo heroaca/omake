@@ -183,6 +183,12 @@ title: MHA Omake
 			{% assign volume = volume_hash[1] %}
 			
 			{% for file in volume.entries %}
+
+			<!-- Reset Variables -->
+			{% assign en_exist = 'false' %}
+			{% assign raw_exist = 'false' %}
+			{% assign alt_exist = 'false' %}
+			{% assign copy_link = 'raw' %}
 			
 			{% assign en_translated = 'raw-only Japanese' %}
 			
@@ -216,7 +222,16 @@ title: MHA Omake
 			{% endif %}
 			{% if volume.volume contains 'V' %}
 				{% assign vig_no = volume.volume | replace: 'V', '' %}
+				{% assign en_translated = en_translated | append: ' vigs' %}
 				{% capture volume_name %}Vigilantes Vol. {{ vig_no }} {% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'M' %}
+				{% assign smash_no = volume.volume | replace: 'M', '' %}
+				{% capture volume_name %}Smash!! Vol. {{ smash_no }} {% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'T' %}
+				{% assign tum_no = volume.volume | replace: 'T', '' %}
+				{% capture volume_name %}Team Up Mission Vol. {{ tum_no }} {% endcapture %}
 			{% endif %}
 
 			{% if alt_exist == 'true' %}
