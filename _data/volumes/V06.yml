@@ -6,6 +6,11 @@ entries:
     description: "Eraserhead Shota Aizawa, Nemuri Kayama, Pop Step Kazuho Haneyama, Koichi Haimawari, Toshinori Yagi, Naomasa Tsukauchi, Jiro Hotta, Ichiro Hotta Gentleman Nice Guy Crawler Volume Cover"
     image: V06-0001
 
+  - type: illustration
+    name: "Message from Horikoshi"
+    description: "Rin Yaritezawa, Hina, Kaori Kazuha Nemuri Kayama Midnight Koichi Haimawari, Kazuho Haneyama, Pop Step Gentleman Nice Guy Crawler Kohei Horikoshi"
+    image: V06-0193
+
   - type: cover
     name: "Dust Cover"
     description: "Shota Aizawa, Eraserhead spine back flaps front flaps"
@@ -18,7 +23,7 @@ entries:
 
   - type: cover
     name: "Mightnight and Tsukauchi"
-    description: "Not in Viz Midnight Naomasa Tsukauchi Back Cover"
+    description: "Not in Viz Nemuri Kayama Midnight Naomasa Tsukauchi Back Cover"
     image: V06-0199
     
   - type: cover

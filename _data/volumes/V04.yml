@@ -6,6 +6,11 @@ entries:
     description: "Knuckleduster, Kuin Hachisuka Queen Bee Takeshi Kuroiwa, Volume Cover"
     image: V04-0001
 
+  - type: illustration
+    name: "Message from Horikoshi"
+    description: "Takeshi Kuroiwa Knuckleduster Kohei Horikoshi"
+    image: V04-0154
+
   - type: cover
     name: "Dust Cover"
     description: "Kuin Hachisuka Queen Bee spine back flaps front flaps"

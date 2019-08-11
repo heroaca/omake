@@ -3,8 +3,13 @@ name: "Day-Tripping Down to Naniwa!"
 entries:
   - type: cover
     name: "Volume Cover"
-    description: "Shota Aizawa, Fat Gum, Koichi Haimawari, Gentleman Nice Guy Crawler Volume Cover"
+    description: "Shota Aizawa, Fat Gum, Taishiro Toyomitsu Koichi Haimawari, Gentleman Nice Guy Crawler Volume Cover"
     image: V05-0001
+
+  - type: illustration
+    name: "Message from Horikoshi"
+    description: "Monika Kaniyashiki Fat Gum Taishiro Toyomitsu Kohei Horikoshi"
+    image: V05-0170
 
   - type: cover
     name: "Dust Cover"

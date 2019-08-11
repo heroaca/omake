@@ -6,6 +6,11 @@ entries:
     description: "Koichi Haimawari, Takeshi Kuroiwa Gentleman Nice Guy Crawler Knuckleduster Volume Cover"
     image: V01-0001
 
+  - type: illustration
+    name: "Message from Horikoshi"
+    description: "Koichi Haimawari, Kazuho Haneyama, Pop Step Takeshi Kuroiwa Gentleman Nice Guy Crawler Knuckleduster Kohei Horikoshi"
+    image: V01-0207
+
   - type: cover
     name: "Dust Cover"
     description: "Koichi Haimawari Gentleman Nice Guy Crawler spine back flaps front flaps"
@@ -23,7 +28,7 @@ entries:
     
   - type: cover
     name: "Volume Back"
-    description: "Pop Step Dust Jacket Back"
+    description: "Pop Step Kazuho Haneyama Dust Jacket Back"
     image: V01-0300
 
 
