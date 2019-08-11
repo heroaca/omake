@@ -6,6 +6,31 @@ entries:
     description: "Koichi Haimawari, Takeshi Kuroiwa Gentleman Nice Guy Crawler Knuckleduster Volume Cover"
     image: V01-0001
 
+  - type: profile
+    name: "Koichi Haimawari"
+    description: "Gentleman Nice Guy The Crawler 2/22 Slide and Glide"
+    image: V01-0054
+
+  - type: profile
+    name: "Knuckleduster"
+    description: "Takeshi Kuroiwa Quirkless"
+    image: V01-0100
+
+  - type: profile
+    name: "Pop Step"
+    description: "Kazuho Haneyama Leap 5/28"
+    image: V01-0136
+
+  - type: profile
+    name: "Samatsu and Namimaru"
+    description: "Ichimoku Samatsu Jube Namimaru X-Men JoJo Josuke Wolverine Cyclops"
+    image: V01-0136
+
+  - type: info
+    name: "Afterword"
+    description: "Horikoshi Furihashi Bettencourt"
+    image: V01-0206
+
   - type: illustration
     name: "Message from Horikoshi"
     description: "Koichi Haimawari, Kazuho Haneyama, Pop Step Takeshi Kuroiwa Gentleman Nice Guy Crawler Knuckleduster Kohei Horikoshi"
