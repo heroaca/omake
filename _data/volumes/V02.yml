@@ -11,6 +11,66 @@ entries:
     description: "Dictionary Definition Wikipedia"
     image: V02-0003
 
+  - type: profile
+    name: "Junkie Villain"
+    description: ""
+    image: V02-0042
+
+  - type: profile
+    name: "Bat Villain"
+    description: ""
+    image: V02-0078
+
+  - type: profile
+    name: "Bigshot/Enigma/Onemu Shinya"
+    description: "Fan created"
+    image: V02-0042
+
+  - type: profile
+    name: "Young Koichi and Pop Step"
+    description: "Middle Schooler Koichi and School Uniform Pop Gentleman Nice Guy Crawler Koichi Haimawari Kazuho Haneyama, Pop Step"
+    image: V02-0116
+
+  - type: profile
+    name: "Rock Villain/Akira Iwako"
+    description: ""
+    image: V02-0136
+
+  - type: profile
+    name: "Kuin Hachisuka"
+    description: "Queen Bee"
+    image: V02-0154
+
+  - type: profile
+    name: "Spike Villain"
+    description: "Soga Kugizaki"
+    image: V02-0176
+
+  - type: profile
+    name: "Stendhal"
+    description: "Stain"
+    image: V02-0200
+
+  - type: profile
+    name: "Ingenium"
+    description: "Tensei Iida Engine 7/22"
+    image: V02-0202
+
+  - type: profile
+    name: "Soga/Moyuru/Rapt"
+    description: "Soga Kugizaki Moyuru Tochi Rapt Tokage"
+    image: V02-0204
+
+  - type: profile
+    name: "The Three Pervy Brothers"
+    description: ""
+    image: V02-0205
+
+  - type: info
+    name: "Afterword"
+    description: ""
+    image: V02-0206
+
   - type: illustration
     name: "Message from Horikoshi"
     description: "Koichi Haimawari, Kazuho Haneyama, Pop Step Gentleman Nice Guy Crawler Kohei Horikoshi"
