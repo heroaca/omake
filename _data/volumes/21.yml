@@ -6,10 +6,90 @@ entries:
     description: "Endeavor, Hawks Volume Cover"
     image: 21-0001
 
+  - type: illustration
+    name: "Yaoyorozu, Tokoyami, Kaminari"
+    description: "Momo Yaoyorozu, Fumikage Tokoyami, Denki Kaminari"
+    image: 21-0003
+
+  - type: profile
+    name: "Natsuo Todoroki"
+    description: ""
+    image: 21-0022
+
+  - type: illustration
+    name: "High-End"
+    description: "Nomu"
+    image: 21-0038
+
+  - type: profile
+    name: "Fuyumi Todoroki"
+    description: ""
+    image: 21-0074
+
   - type: misc
     name: "Vestiges"
     description: "DFO Dad For One AFO Hisashi Midoriya Hisashi Shigaraki Daddy"
     image: 21-0080
+
+  - type: illustration
+    name: "Nana Shimura"
+    description: "Nomu One For All"
+    image: 21-0090
+
+  - type: info
+    name: "The Winter Costume"
+    description: "Asui Tsuyu Froppy"
+    image: 21-0104
+
+  - type: profile
+    name: "Jurota Shishida"
+    description: "Class 1-B UA Student U.A."
+    image: 21-0122
+
+  - type: profile
+    name: "Kosei Tsuburaba"
+    description: "Class 1-B UA Student U.A."
+    image: 21-0138
+
+  - type: profile
+    name: "Hiryu Rin"
+    description: "Class 1-B UA Student U.A. China"
+    image: 21-0154
+
+  - type: profile
+    name: "Kinoko Komori"
+    description: "Class 1-B UA Student U.A."
+    image: 21-0168
+
+  - type: profile
+    name: "Shihai Kuroiro"
+    description: "Class 1-B UA Student U.A."
+    image: 21-0182
+
+  - type: profile
+    name: "Manga Fukidashi"
+    description: "Class 1-B UA Student U.A."
+    image: 21-0194
+
+  - type: profile
+    name: "Hiroshi Tameda"
+    description: "Can'tcha See Can't You See Loyal Fan of Endeavor Can'tya See"
+    image: 21-0195
+
+  - type: info
+    name: "The Dolls"
+    description: "All Might Endeavor Top Pro Hero 3000 yen 500"
+    image: 21-0196
+
+  - type: info
+    name: "Momo's Winter Costume"
+    description: "Momo Yaoyorozu, Ochaco Uraraka, Mina Ashido 1-A girls"
+    image: 21-0197
+
+  - type: misc
+    name: "Horikoshi's Assistants"
+    description: ""
+    image: 21-0198
 
   - type: cover
     name: "Dust Cover"
