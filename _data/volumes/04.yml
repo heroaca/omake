@@ -1,10 +1,75 @@
 volume: 04
-name: ""
+name: "The Boy Born with Everything"
 entries:
   - type: cover
     name: "Volume Cover"
     description: "Deku, Kacchan, Izuku Midoriya, Ochaco Uraraka, Katsuki Bakugo, Tenya Iida, Shoto Todoroki, Momo Yaoyorozu, Eijiro Kirishima, Mina Ashido, Denki Kaminari, Hanta Sero, Fumikage Tokoyami, Mei Hatsume Volume Cover"
     image: 04-0001
+
+  - type: illustration
+    name: "1-A Cheerleaders"
+    description: "Toru Hagakure, Momo Yaoyorozu, Mina Ashido UA Students"
+    image: 04-0003
+
+  - type: profile
+    name: "Mei Hatsume"
+    description: "Support UA Student"
+    image: 04-0026
+
+  - type: profile
+    name: "Midnight"
+    description: "Nemuri Kayama Pro Hero UA Teacher"
+    image: 04-0046
+
+  - type: profile
+    name: "Neito Monoma"
+    description: "1-B UA Student"
+    image: 04-0068
+
+  - type: profile
+    name: "Cementoss"
+    description: "Ken Ishiyama Pro Hero UA Teacher"
+    image: 04-0088
+
+  - type: profile
+    name: "Shoto Todoroki"
+    description: "UA 1-A Student Half-Cold, Half-Hot"
+    image: 04-0089
+
+  - type: profile
+    name: "Tetsutetsu Tetsutetsu"
+    description: "1-B UA Student"
+    image: 04-0108
+
+  - type: profile
+    name: "Mashirao Ojiro"
+    description: "UA 1-A Student Tail"
+    image: 04-0109
+
+  - type: profile
+    name: "Itsuka Kendo"
+    description: "1-B UA Student"
+    image: 04-0128
+
+  - type: profile
+    name: "Ibara Shiozaki"
+    description: "1-B UA Student"
+    image: 04-0148
+
+  - type: profile
+    name: "Hitoshi Shinso"
+    description: "General Studies UA Student"
+    image: 04-0168
+
+  - type: profile
+    name: "Mina Ashido"
+    description: "1-A UA Student"
+    image: 04-0190
+
+  - type: misc
+    name: "Assistant Introductions"
+    description: ""
+    image: 04-0191
 
   - type: cover
     name: "Dust Cover"

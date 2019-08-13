@@ -6,6 +6,56 @@ entries:
     description: "Shoto Todoroki Volume Cover"
     image: 05-0001
 
+  - type: illustration
+    name: "Midnight"
+    description: ""
+    image: 05-0003
+
+  - type: profile
+    name: "Endeavor"
+    description: "Enji Todoroki"
+    image: 05-0046
+
+  - type: profile
+    name: "Rikido Sato"
+    description: "1-A UA Student U.A. Sugar rush"
+    image: 05-0066
+
+  - type: profile
+    name: "Koji Koda"
+    description: "1-A UA Student U.A."
+    image: 05-0086
+
+  - type: info
+    name: "Katsuki Bakugo's Costume"
+    description: "Kacchan 1-A UA Student U.A."
+    image: 05-0106
+
+  - type: info
+    name: "Izuku Midoriya's Costume"
+    description: "Deku 1-A UA Student U.A."
+    image: 05-0126
+
+  - type: profile
+    name: "Juzo Honenuki"
+    description: "1-B UA Student U.A."
+    image: 05-0146
+
+  - type: profile
+    name: "Nirengeki Shoda"
+    description: "1-B UA Student U.A."
+    image: 05-0166
+
+  - type: info
+    name: "Sports Festival"
+    description: "Ochaco Uraraka 1-A UA Student U.A."
+    image: 05-0190
+
+  - type: info
+    name: "Meet the Assistants"
+    description: ""
+    image: 05-0191
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Fuyumi Todoroki Tenya Iida Kindergarten Teacher spine back flaps front flaps"
