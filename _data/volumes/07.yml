@@ -11,6 +11,41 @@ entries:
     description: "Momo Yaoyorozu, Kyoka Jiro Work"
     image: 07-0002
 
+  - type: info
+    name: "Shoto Todoroki's Costume"
+    description: "U.A. UA High Class 1-A Student Hero Costume"
+    image: 07-0028
+
+  - type: info
+    name: "Tenya Iida's Costume"
+    description: "U.A. UA High Class 1-A Student Hero Costume"
+    image: 07-0048
+
+  - type: info
+    name: "Winged Nomu"
+    description: "Why'd the winged nomu pick Izuku Midoriya Deku childhood friend"
+    image: 07-0068
+
+  - type: info
+    name: "Supporting Cast"
+    description: "News anchorman reporter Daikaku Miyagi Big Horn"
+    image: 07-0088
+
+  - type: profile
+    name: "Mina Ashido"
+    description: "Acid Corrosive liquid sticky"
+    image: 07-0089
+
+  - type: info
+    name: "Stain Complaints"
+    description: "No Villain likable"
+    image: 07-0108
+
+  - type: profile
+    name: "Kyoka Jiro"
+    description: "Earphone Jack sound heartbeat vibrations"
+    image: 07-0109
+
   - type: misc
     name: "Listen up!! A Tale from the Past"
     description: "Chrysler Building Midtown Manhattan New York US United States of America DFO Dad For One AFO Hisashi Midoriya Hisashi Shigaraki Daddy"
@@ -20,6 +55,31 @@ entries:
     name: "Listen up!! A Tale from the Past"
     description: "Born Twisted DFO Dad For One AFO Hisashi Midoriya Hisashi Shigaraki Daddy"
     image: 07-0125
+
+  - type: info
+    name: "Uraraka's Frugal Life!"
+    description: "Ochaco Uraraka's Touchingly Frugal Life! Save money being awake sleep poor"
+    image: 07-0128
+
+  - type: profile
+    name: "Denki Kaminari"
+    description: "Electrification discharge electricity pikachu"
+    image: 07-0129
+
+  - type: misc
+    name: "Momo's Study Party"
+    description: "Momo Yaoyorozu Mina Ashido Kyoka Jiro Denki Kaminari lecture hall"
+    image: 07-0148
+
+  - type: profile
+    name: "Ectoplasm"
+    description: "UA U.A. Teacher Pro Hero Karaoke Prosthetic legs"
+    image: 07-0168
+
+  - type: misc
+    name: "Horikoshi's Assistants"
+    description: ""
+    image: 07-0191
 
   - type: cover
     name: "Dust Cover"
