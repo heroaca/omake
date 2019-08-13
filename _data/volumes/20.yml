@@ -6,6 +6,61 @@ entries:
     description: "Deku, Izuku Midoriya, Eri, Mirio Togata, Kyoka Jiro, Tsuyu Asui, Ochaco Uraraka, La Brava, Gentle Criminal, Mashirao Ojiro, Nejire Hado, Ectoplasm, Hound Dog Volume Cover"
     image: 20-0001
 
+  - type: illustration
+    name: "Kyoka Jiro"
+    description: "Earphone Jack 1-A UA U.A. Student"
+    image: 20-0002
+
+  - type: info
+    name: "The Fan Letters"
+    description: "All Might Toshinori Yagi Deku Izuku Midoriya"
+    image: 20-0023
+
+  - type: illustration
+    name: "1-A Girls"
+    description: "20th Volume Bettencourt Momo Yaoyorozu, Ochaco Uraraka, Kyoka Jiro, Tsuyu Asui, Mina Ashido, Toru Hagakure UA U.A. Student"
+    image: 20-0041
+
+  - type: illustration
+    name: "Toga and Twice"
+    description: "20th Volume Himiko Toga Twice Akiyama Yoco Villains"
+    image: 20-0059
+
+  - type: info
+    name: "The Buttons"
+    description: "Kacchan Katsuki Bakugo Denki Kaminari U.A. UA 1-A Class Student"
+    image: 20-0075
+
+  - type: info
+    name: "The Manuscript"
+    description: "Kyoka Jiro Shame U.A. UA 1-A Class Student"
+    image: 20-0095
+
+  - type: profile
+    name: "Yuyu Haya"
+    description: "U.A. UA Class Student"
+    image: 20-0113
+
+  - type: info
+    name: "The Why Wash!?"
+    description: "Pro Hero Kids"
+    image: 20-0131
+
+  - type: misc
+    name: "Staff Introduction"
+    description: ""
+    image: 20-0149
+
+  - type: profile
+    name: "Mirko"
+    description: "Pro Hero"
+    image: 20-0167
+
+  - type: profile
+    name: "Hawks"
+    description: "Chicken Pro Hero"
+    image: 20-0185
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Mirko Miruko Fumikage Tokoyami 1-A UA Student spine back flaps front flaps"
