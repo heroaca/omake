@@ -6,6 +6,61 @@ entries:
     description: "Deku, Izuku Midoriya, Tenya Iida, Stain Volume Cover"
     image: 06-0001
 
+  - type: illlustration
+    name: "Deku and Ochaco"
+    description: "Ochaco Uraraka, Izuku Midoriya, Fumikage Tokoyami, Minoru Mineta, Convenience Store Hat"
+    image: 06-0003
+
+  - type: info
+    name: "The Digression"
+    description: "Deku Izuku Midoriya, Present Mic, Shota Aizawa, Eraserhead, Mina Ashido Cucumber, Hero Name"
+    image: 06-0026
+
+  - type: info
+    name: "Ochaco's Costume"
+    description: "Ochaco Uraraka's Hero Costume 1-A UA U.A. Student counter nausea"
+    image: 06-0046
+
+  - type: profile
+    name: "Gran Torino"
+    description: "Taiyaki inactive Yoda Dagobah Pro Hero"
+    image: 06-0066
+
+  - type: profile
+    name: "Best Jeanist"
+    description: "Tsunagu Hakamada Pro Hero Wolves"
+    image: 06-0086
+
+  - type: info
+    name: "The Pros"
+    description: "Pro Heroes Internship Gunhead Gatling Fourth Kind quad Arms Uwabami Serpentress"
+    image: 06-0106
+
+  - type: profile
+    name: "Manual"
+    description: "Normal Hero Masaki Mizushima Pro Hero Equilibrium houseplants"
+    image: 06-0126
+
+  - type: info
+    name: "Rough Draft"
+    description: "Deku vs. Todoroki manuscript manga"
+    image: 06-0148
+
+  - type: info
+    name: "Uraraka's Economical Meal Plan!"
+    description: "First Edition She doesn't eat watch TV"
+    image: 06-0170
+
+  - type: info
+    name: "Anime Version!!"
+    description: "Izuku Midoriya Deku TV"
+    image: 06-0190
+
+  - type: misc
+    name: "Horikoshi's Assistants!!!"
+    description: ""
+    image: 06-0191
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Katsuki Bakugo Kacchan Shoto Todoroki spine back flaps front flaps"
