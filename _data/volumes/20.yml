@@ -12,6 +12,11 @@ entries:
     image: 20-0002
 
   - type: info
+    name: "Character Lineup!!"
+    description: "1-A UA U.A. Student"
+    image: 20-0004
+
+  - type: info
     name: "The Fan Letters"
     description: "All Might Toshinori Yagi Deku Izuku Midoriya"
     image: 20-0023
