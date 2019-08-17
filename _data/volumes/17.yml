@@ -5,6 +5,61 @@ entries:
     name: "Volume Cover"
     description: "Mirio Togata Volume Cover"
     image: 17-0001
+    
+  - type: illustration
+    name: "The Lurkers"
+    description: "Edgeshot Mt. Lady Kamui Woods Shinrin Team Up"
+    image: 17-0003
+
+  - type: info
+    name: "Twoga"
+    description: "Twice Himiko Toga Rejected Version Dancing Villains LoV"
+    image: 17-0022
+
+  - type: info
+    name: "Overhaul Sidebar"
+    description: "Yakuza Magne Villains"
+    image: 17-0022
+
+  - type: info
+    name: "The Faces"
+    description: "Yakuza Deidoro Sakaki Shin Nemoto Villains"
+    image: 17-0076
+
+  - type: illustration
+    name: "Lemillion"
+    description: "Mirio Togata UA Students"
+    image: 17-0096
+
+  - type: info
+    name: "Kyoka Jiro Makes Some Noise!!"
+    description: "High Notes Karaoke"
+    image: 17-0116
+
+  - type: illustration
+    name: "Suneater"
+    description: "Tamaki Amajiki UA Students"
+    image: 17-0134
+
+  - type: info
+    name: "Gift"
+    description: "Minoru Mineta Denki Kaminari Momo Yaoyorozu"
+    image: 17-0154
+
+  - type: illustration
+    name: "Twoga"
+    description: "Bettencourt Betten Court Twice Himiko Toga Vigilantes"
+    image: 17-0172
+
+  - type: info
+    name: "The Afterword!"
+    description: "Ochaco Uraraka UA 1-A Students"
+    image: 17-0190
+
+  - type: misc
+    name: "Staff Introduction"
+    description: ""
+    image: 17-0191
 
   - type: cover
     name: "Dust Cover"

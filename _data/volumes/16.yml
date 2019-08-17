@@ -6,6 +6,61 @@ entries:
     description: "Eijiro Kirishima, Fat Gum, Tamaki Amajiki Volume Cover"
     image: 16-0001
 
+  - type: illustration
+    name: "Nejire Hado"
+    description: "Nejire-chan"
+    image: 16-0003
+
+  - type: info
+    name: "Mr. Brave"
+    description: "Hair-Raiser Sun Wukong"
+    image: 16-0026
+
+  - type: info
+    name: "Mirio Togata's Costume"
+    description: "Lemillion Lemilliomet Lemilliosuit"
+    image: 16-0046
+
+  - type: info
+    name: "The Faces"
+    description: "Toya Setsuno Yu Hojo Soramitsu Tabe"
+    image: 16-0084
+
+  - type: info
+    name: "The Faces"
+    description: "Kendo Rappa Hekiji Tengai"
+    image: 16-0106
+
+  - type: info
+    name: "Fatgum"
+    description: "Fitgum costume hoddie stretch"
+    image: 16-0124
+
+  - type: info
+    name: "Eijiro Kirishima's Costume"
+    description: "Red Riot Polyurethane"
+    image: 16-0138
+
+  - type: info
+    name: "Rappa"
+    description: "Rappa Fatgum Strongarm rotate"
+    image: 16-0170
+
+  - type: info
+    name: "The Grudge"
+    description: "Kacchan Katsuki Bakugo Denki Kaminari Hanta Sero"
+    image: 16-0188
+
+  - type: info
+    name: "Early sketch of Eri"
+    description: ""
+    image: 16-0189
+
+  - type: misc
+    name: "Assistants's Original Villains"
+    description: ""
+    image: 16-0190
+    
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Tsuyu Asui Mezo Shoji 1-A UA Students spine back flaps front flaps"
