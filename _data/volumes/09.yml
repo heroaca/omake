@@ -6,6 +6,56 @@ entries:
     description: "Deku, Izuku Midoriya, Muscular, Fumikage Tokoyami Volume Cover"
     image: 09-0001
 
+  - type: illustration
+    name: "Tusyu Asui"
+    description: "UA 1-A Students"
+    image: 09-0003
+
+  - type: info
+    name: "Quirk Training"
+    description: "Ochaco Uraraka, Katsuki Bakugo, Minoru Mineta, Shoto Todoroki, Rikido Sato, Momo Yaoyorozu UA 1-A Students"
+    image: 09-0026
+
+  - type: info
+    name: "Quirk Training Part 2"
+    description: "Yuga Aoyama, Tsuyu Asui, Tenya Iida, Mashirao Ojiro, Denki Kaminari, Koji Koda, Fumikage Tokoyami, Mezo Shoji, Kyoka Jiro UA 1-A Students"
+    image: 09-0048
+
+  - type: profile
+    name: "Tora"
+    description: "Pro Hero Wild Wild Pussycats Yawara Chatora Tiger Tora Thailand"
+    image: 09-0068
+
+  - type: info
+    name: "The Beat's Forest Live View"
+    description: "Teachers Pro Heroes Villains 1-B UA 1-A Students"
+    image: 09-0071
+
+  - type: profile
+    name: "Ragdoll"
+    description: "Pro Hero Wild Wild Pussycats Tomoko Shiretoko"
+    image: 09-0088
+
+  - type: info
+    name: "Fear"
+    description: "Kyoka Jiro Toru Hagakure Yui Kodai 1-B UA 1-A Students"
+    image: 09-0112
+
+  - type: info
+    name: "About It's Okay"
+    description: "Self-Defense harm"
+    image: 09-0132
+
+  - type: info
+    name: "The Supplement"
+    description: "1 one million percent 1,000,000 % Detroit Smash Izuku Midoriya Deku"
+    image: 09-0152
+
+  - type: misc
+    name: "Horikoshi's Assistants"
+    description: ""
+    image: 09-0172
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz 1-A Mina Ashido Student Tsuyu Asui Froppy UA Student spine back flaps front flaps"

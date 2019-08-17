@@ -6,6 +6,71 @@ entries:
     description: "Momo Yaoyorozu, Shota Aizawa, Minoru Mineta, Katsuki Bakugo, All Might, Deku, Kacchan, Izuku Midoriya, Tsuyu Asui, Shoto Todoroki Volume Cover"
     image: 08-0001
 
+  - type: illustration
+    name: "Ochaco Uraraka"
+    description: "Tongue UA 1-A Students"
+    image: 08-0003
+
+  - type: info
+    name: "Mystery of the Yayoshkas"
+    description: "Momo Yaoyorozu Matryoshka dolls Creation"
+    image: 08-0026
+
+  - type: profile
+    name: "Recovery Girl"
+    description: "Chiyo Shuzenji Candy UA U.A. Teacher Staff"
+    image: 08-0046
+
+  - type: info
+    name: "Momo Yaoyorozu's Costume"
+    description: "Leotard Belt Sexy Reference Books Creation"
+    image: 08-0068
+
+  - type: info
+    name: "Uraraka's Touchingly Economical Life"
+    description: "Ochaco Uraraka Second Way to Save Heat Clear mind earthly thoughts endure poor"
+    image: 08-0088
+
+  - type: info
+    name: "Yuga Aoyama's Costume"
+    description: "Sparkly Glasses Belt Effusion Set High-Tech"
+    image: 08-0108
+
+  - type: info
+    name: "Minoru Mineta's Costume"
+    description: "Grape Face Mask Gloves Cape Pluck-off"
+    image: 08-0128
+
+  - type: info
+    name: "Toga Himiko"
+    description: "Female Characters Hair"
+    image: 08-0148
+
+  - type: profile
+    name: "Pixie Bob"
+    description: "Wild Wild Pussycats Ryuko Tsuchikawa Cats Pro Hero"
+    image: 08-0168
+
+  - type: profile
+    name: "Mandalay"
+    description: "Wild Wild Pussycats Shino Sozaki Cats Pro Hero"
+    image: 08-0188
+
+  - type: profile
+    name: "Mandalay"
+    description: "Kota Izumi Boy"
+    image: 08-0189
+
+  - type: misc
+    name: "Grudge-filled Tears"
+    description: "Minoru Mineta Hanta Sero Lap Pillow"
+    image: 08-0190
+
+  - type: misc
+    name: "Horikoshi's Assistants"
+    description: ""
+    image: 08-0191
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Izuku Midoriya Deku All Might Momo Yaoyorozu spine back flaps front flaps"
