@@ -6,6 +6,36 @@ entries:
     description: "All Might Volume Cover"
     image: 11-0001
 
+  - type: illustration
+    name: "Tomura Shigaraki"
+    description: "Hands"
+    image: 11-0003
+
+  - type: profile
+    name: "Inko Midoriya"
+    description: "Hisashi Husband overseas DFO Dad For One"
+    image: 11-0108
+
+  - type: illustration
+    name: "Sunset"
+    description: "Symbol of Peace"
+    image: 11-0128
+
+  - type: profile
+    name: "Masaru and Mitsuki Bakugo"
+    description: "Glycerin Acid-like Sweat Classical Music Volleyball"
+    image: 11-0148
+
+  - type: profile
+    name: "Kyotoku and Mika Jiro"
+    description: "Rock Punk Music Earphone Jacks"
+    image: 11-0168
+
+  - type: misc
+    name: "Horikoshi's Assistants"
+    description: ""
+    image: 11-0188
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Ochaco Uraraka Eijiro Kirishima 1-A UA Student spine back flaps front flaps"

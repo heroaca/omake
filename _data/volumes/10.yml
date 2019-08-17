@@ -6,6 +6,56 @@ entries:
     description: "Deku, Kacchan, Izuku Midoriya, Katsuki Bakugo, Tomura Shigaraki Volume Cover"
     image: 10-0001
 
+  - type: illustration
+    name: "Ochaco and Mina"
+    description: "Ochaco Uraraka Mina Ashido UA 1-A Students"
+    image: 10-0003
+
+  - type: profile
+    name: "Yosetsu Awase"
+    description: "Bandana UA 1-B Students"
+    image: 10-0024
+
+  - type: profile
+    name: "Vlad King"
+    description: "Sekijiro Kan UA 1-B Pro Heroes Homeroom Teacher Dog"
+    image: 10-0044
+
+  - type: profile
+    name: "Kosei Tsuburaba"
+    description: "UA 1-B Students"
+    image: 10-0064
+
+  - type: info
+    name: "Present Mic"
+    description: "UA Teacher Pro Heroes HAGE Hizashi Yamada"
+    image: 10-0086
+
+  - type: info
+    name: "Coin Lockers"
+    description: "Izuku Midoriya Deku Momo Yaoyorozu Clothing Bags Storing"
+    image: 10-0106
+
+  - type: profile
+    name: "Mt. Lady"
+    description: "Pro Heroes Peaches Yu Takeyama"
+    image: 10-0126
+
+  - type: profile
+    name: "Kamui Woods"
+    description: "Pro Heroes Shinji Nishiya Shinrin Kamui"
+    image: 10-0146
+
+  - type: profile
+    name: "Edgeshot"
+    description: "Pro Heroes Ninja Shinya Kamihara"
+    image: 10-0166
+
+  - type: info
+    name: "Tsuyu's Ribbity Diary"
+    description: "Froppy Tsuyu Asui Family"
+    image: 10-0186
+    
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Mt. Lady Kamui Woods Yuga Aoyama UA 1-A Student spine back flaps front flaps"
