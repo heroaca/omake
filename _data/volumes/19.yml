@@ -6,6 +6,71 @@ entries:
     description: "Bunkasai Kyoka Jiro, Denki Kaminari, Mina Ashido, Momo Yaoyorozu, Katsuki Bakugo, Fumikage Tokoyami Volume Cover"
     image: 19-0001
 
+  - type: illustration
+    name: "Deku and Hatsume"
+    description: "Hatsume Mei Izuku Midoriya Bike Motorcycle"
+    image: 19-0042
+
+  - type: misc
+    name: "Fatgum"
+    description: "4 Days Pro Heroes"
+    image: 19-0063
+
+  - type: misc
+    name: "Tell us, Iida!"
+    description: "Maid Cafe Tenya Iida Denki Kaminari 1-A UA Class Students"
+    image: 19-0083
+
+  - type: profile
+    name: "Eri"
+    description: "Apples Shota Aizawa Neko"
+    image: 19-0101
+
+  - type: info
+    name: "Tsutsutaka and Chikuchi"
+    description: "Tsutsutaka Agoyamato Chikuchi Togeike UA Students Seniors"
+    image: 19-0117
+
+  - type: misc
+    name: "A Band"
+    description: "Denki Kaminari Katsuki Bakugo Fumikage Tokoyami Kyoka Jiro Momo Yaoyorozu Spark Electrikids Minight Funeral March"
+    image: 19-0135
+
+  - type: info
+    name: "Diligent about Production Values"
+    description: "UA Students 1-B Class Neito Monoma Yosetsu Awase, Tetsutetsu tetsutetsu, Setsuna Tokage, Kojiro Bondo Dragon"
+    image: 19-0153
+
+  - type: profile
+    name: "Gentle Criminal"
+    description: "Tanjuro Tobita Tea Gentleman Villains"
+    image: 19-0171
+
+  - type: profile
+    name: "La Brava"
+    description: "Manami Aiba Love"
+    image: 19-0207
+
+  - type: profile
+    name: "Bibimi Kenranzaki"
+    description: "UA Students Support"
+    image: 19-0225
+
+  - type: info
+    name: "The Scrapped Costumes"
+    description: "Too cool not playful"
+    image: 19-0226
+
+  - type: info
+    name: "Afterword"
+    description: "Tsuyu Asui end"
+    image: 19-0227
+
+  - type: misc
+    name: "Staff Introduction"
+    description: ""
+    image: 19-0228
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Gentle Criminal Record Camcorder Kyoka Jiro 1-A UA Student spine back flaps front flaps"

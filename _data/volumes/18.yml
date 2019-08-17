@@ -6,6 +6,41 @@ entries:
     description: "Deku, Izuku Midoriya, Eri, Overhaul Volume Cover"
     image: 18-0001
 
+  - type: illustration
+    name: "Mirio and Nighteye"
+    description: "Mirio Togata Lemillion Bench"
+    image: 18-0042
+
+  - type: info
+    name: "The Movie"
+    description: "Two Heroes"
+    image: 18-0063
+
+  - type: profile
+    name: "Snatch"
+    description: "Sajin Higawara Barbeque Barbecue BBQ"
+    image: 18-0099
+
+  - type: misc
+    name: "Staff Introduction"
+    description: ""
+    image: 18-0151
+
+  - type: profile
+    name: "Komari Ikoma"
+    description: "Masegaki Elementary School Teacher"
+    image: 18-0169
+
+  - type: info
+    name: "Gift + Afterword"
+    description: "Katsuki Bakugo Kacchan Mina Ashido"
+    image: 18-0186
+
+  - type: illustration
+    name: "Tenya and Tensei Iida"
+    description: "Ingenium Betten Court Bettencourt Vigilantes"
+    image: 18-0205
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Gang Orca Koji Koda 1-A UA Student Aquarium spine back flaps front flaps"
