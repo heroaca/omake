@@ -13,27 +13,27 @@ entries:
 
   - type: profile
     name: "All Might"
-    description: "UA Pro Hero Teacher American Yakushima 6/10"
+    description: "UA Pro Hero Teacher American Yakushima"
     image: 01-0060
 
   - type: profile
     name: "Izuku Midoriya"
-    description: "Deku Katsudon 7/15 one-shot UA Student 1-A"
+    description: "Deku Katsudon one-shot UA Student 1-A"
     image: 01-0086
 
   - type: profile
     name: "Katsuki Bakugo"
-    description: "Kacchan UA 1-A Student 4/20 Spicy food mountain climbing rotten thief explosion genius"
+    description: "Kacchan UA 1-A Student Spicy food mountain climbing rotten thief explosion genius"
     image: 01-0110
 
   - type: profile
     name: "Ochaco Uraraka"
-    description: "1-A Class UA Student Starry skies Japanese food 12/27 Ochako"
+    description: "1-A Class UA Student Starry skies Japanese food Ochako"
     image: 01-0130
 
   - type: profile
     name: "Tenya Iida"
-    description: "UA 1-A Class student 8/22 Studying beef stew"
+    description: "UA 1-A Class student Studying beef stew"
     image: 01-0150
 
   - type: profile
@@ -43,7 +43,7 @@ entries:
 
   - type: profile
     name: "Shota Aizawa"
-    description: "Eraserhead cats 11/8 UA Teacher rationality"
+    description: "Eraserhead cats UA Teacher rationality"
     image: 01-0170
 
   - type: info

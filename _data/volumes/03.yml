@@ -13,12 +13,12 @@ entries:
 
   - type: profile
     name: "Eijiro Kirishima"
-    description: "UA 1-A Student manly menly tough guys 10/16 scar right eye U.A."
+    description: "UA 1-A Student manly menly tough guys scar right eye U.A."
     image: 03-0024
 
   - type: profile
     name: "Kyoka Jiro"
-    description: "UA 1-A Student Rock Music 8/1 bass eyephone jack U.A."
+    description: "UA 1-A Student Rock Music bass eyephone jack U.A."
     image: 03-0044
 
   - type: profile
@@ -38,22 +38,22 @@ entries:
 
   - type: profile
     name: "Principal Nezu"
-    description: "UA teacher rat brushing smoke 1/1 rare animal Quirk"
+    description: "UA teacher rat brushing smoke rare animal Quirk"
     image: 03-0104
 
   - type: profile
     name: "Hanta Sero"
-    description: "UA 1-A Student tape spider-man 7/28 oranges soy product one-liners U.A."
+    description: "UA 1-A Student tape spider-man oranges soy product one-liners U.A."
     image: 03-0126
 
   - type: profile
     name: "Fumikage Tokoyami"
-    description: "UA 1-A Student Dark Shadow cool 10/30 edgy apples U.A."
+    description: "UA 1-A Student Dark Shadow cool edgy apples U.A."
     image: 03-0146
 
   - type: profile
     name: "Naomasa Tsukauchi"
-    description: "Police detective baseball 4/4"
+    description: "Police detective baseball"
     image: 03-0166
 
   - type: misc

@@ -13,17 +13,17 @@ entries:
 
   - type: profile
     name: "Sen Kaibara"
-    description: "Photography 6/12 1-B UA"
+    description: "Photography 1-B UA"
     image: 22-0020
 
   - type: profile
     name: "Kojiro Bondo"
-    description: "Building Plastic Models 12/23 TIE fighter X-wing 1-B UA"
+    description: "Building Plastic Models TIE fighter X-wing 1-B UA"
     image: 22-0032
 
   - type: profile
     name: "Setsuna Tokage"
-    description: "Dinosaurs 10/13 1-B UA Ashihara Lizard"
+    description: "Dinosaurs 1-B UA Ashihara Lizard"
     image: 22-0046
 
   - type: illustration
@@ -33,7 +33,7 @@ entries:
 
   - type: profile
     name: "Togaru Kamakiri"
-    description: "Bug collecting 1/7 horsehair worm parasite 1-B UA"
+    description: "Bug collecting horsehair worm parasite 1-B UA"
     image: 22-0078
 
   - type: info
@@ -43,7 +43,7 @@ entries:
 
   - type: profile
     name: "Yui Kodai"
-    description: "Matryoshka doll 12/19 1-B UA fan club"
+    description: "Matryoshka doll 1-B UA fan club"
     image: 22-0108
 
   - type: info

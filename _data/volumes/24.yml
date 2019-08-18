@@ -18,7 +18,7 @@ entries:
 
   - type: profile
     name: "Himiko Toga"
-    description: "Blood Pomegranate 8/7 League of Villains Alliance"
+    description: "Blood Pomegranate League of Villains Alliance"
     image: 24-0038
 
   - type: info
@@ -38,7 +38,7 @@ entries:
 
   - type: profile
     name: "Twice"
-    description: "Jin Bubaigawara 5/10 Cigarette Smoking League of Villains Alliance"
+    description: "Jin Bubaigawara Cigarette Smoking League of Villains Alliance"
     image: 24-0104
 
   - type: info
@@ -53,7 +53,7 @@ entries:
 
   - type: profile
     name: "Spinner"
-    description: "Shuichi Iguchi Cosplay 8/8 video games League of Villains Alliance"
+    description: "Shuichi Iguchi Cosplay video games League of Villains Alliance"
     image: 24-0152
 
   - type: illustration
