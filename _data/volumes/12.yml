@@ -6,6 +6,81 @@ entries:
     description: "Deku, Kacchan, Izuku Midoriya, Katsuki Bakugo, Toshinori Yagi, Ochaco Uraraka, Camie Kemy Utsushimi, Denki Kaminari, Mei Hatsume Volume Cover"
     image: 12-0001
 
+  - type: illustration
+    name: "Mei Hatsume"
+    description: "UA Students Support"
+    image: 12-0003
+
+  - type: info
+    name: "The 100"
+    description: "All Might Deku Izuku Midoriya"
+    image: 12-0026
+
+  - type: info
+    name: "The 100"
+    description: "All Might Deku Izuku Midoriya milestone scars"
+    image: 12-0026
+
+  - type: profile
+    name: "Fumikage Tokoyami"
+    description: "Dark Shadow Hair Feather Choker Beak"
+    image: 12-0027
+
+  - type: profile
+    name: "Power Loader"
+    description: "Higari Maijima Cars UA Teacher Pro Heroes"
+    image: 12-0046
+
+  - type: illustration
+    name: "Neito Monoma"
+    description: "Unique 1-B UA Class Students"
+    image: 12-0066
+
+  - type: profile
+    name: "Ms. Joke"
+    description: "Emi Fukukado Comedy Teacher Pro Heroes"
+    image: 12-0086
+
+  - type: profile
+    name: "Inasa Yoarashi"
+    description: "Hot-bloodedness Shiketsu Students"
+    image: 12-0106
+
+  - type: profile
+    name: "Yo Shindo"
+    description: "Trolling Ketsubutsu Academy High School Students"
+    image: 12-0126
+
+  - type: profile
+    name: "Seiji Shishikura"
+    description: "Vegetables Shiketsu Students"
+    image: 12-0148
+
+  - type: profile
+    name: "Yokumiru Mera"
+    description: "Sleeping License Test"
+    image: 12-0168
+
+  - type: illustration
+    name: "Tatami Nakagme"
+    description: "Ketsubutsu Academy High School Students"
+    image: 12-0188
+
+  - type: illustration
+    name: "Shikkui Makebe"
+    description: "Ketsubutsu Academy High School Students"
+    image: 12-0189
+
+  - type: info
+    name: "Afterword"
+    description: ""
+    image: 12-0190
+
+  - type: misc
+    name: "Horikoshi's Assistants"
+    description: ""
+    image: 12-0191
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Denki Kaminari Shiketsu High Inasa Yoarashi Camie Kemy Utsushimi Seiji Shishikura spine back flaps front flaps"

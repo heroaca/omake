@@ -6,6 +6,56 @@ entries:
     description: "Overhaul, Deku, Izuku Midoriya Volume Cover"
     image: 14-0001
 
+  - type: illustration
+    name: "Monoma and Pony"
+    description: "Neito Monoma Pony Tsunotori Class 1-B UA Students"
+    image: 14-0003
+
+  - type: profile
+    name: "Pony Tsunotori"
+    description: "Japanese American United States US Apple Anime Class 1-B UA Students"
+    image: 14-0064
+
+  - type: profile
+    name: "Tsuyu Asui"
+    description: "Cold Froppy Frog Class 1-A UA Students"
+    image: 14-0065
+
+  - type: profile
+    name: "Hound Dog"
+    description: "Ryo Inui Soccer Dog UA Teacher Pro Heroes"
+    image: 14-0082
+
+  - type: profile
+    name: "Mirio Togata"
+    description: "Lemillion Ramen Comedy Big 3 UA Students"
+    image: 14-0102
+
+  - type: profile
+    name: "Tamaki Amajiki"
+    description: "Suneater Butterflies Food Sasuke Big 3 UA Students"
+    image: 14-0122
+
+  - type: profile
+    name: "Nejire Hado"
+    description: "Lilies Jasmine Tea Curiosity Big 3 UA Students"
+    image: 14-0162
+
+  - type: profile
+    name: "Sir Nighteye"
+    description: "Pro Heroes"
+    image: 14-0182
+
+  - type: profile
+    name: "Bubble Girl"
+    description: "Kaoruko Awata Fan Art Contest Pro Heroes"
+    image: 14-0202
+
+  - type: misc
+    name: "Staff Introduction"
+    description: "Favorite Character"
+    image: 14-0203
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz UA Students Mina Ashido Big 3 Three Mirio Togata Nejire Hado Tamaki Amajiki spine back flaps front flaps"

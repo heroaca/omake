@@ -6,6 +6,56 @@ entries:
     description: "Katsuki Bakugo, Kacchan, Deku, Izuku Midoriya, Gang Orca, Shoto Todoroki, Inasa Yoarashi Volume Cover"
     image: 13-0001
 
+  - type: illustration
+    name: "Shoto Todoroki"
+    description: ""
+    image: 13-0003
+
+  - type: profile
+    name: "Nagamasa Mora"
+    description: "Shiketsu High Students Haircuts Class 2-1"
+    image: 13-0026
+
+  - type: profile
+    name: "Gang Orca"
+    description: "Kugo Sakamata Ocean Pro Heroes"
+    image: 13-0044
+
+  - type: misc
+    name: "Staff Introduction"
+    description: ""
+    image: 13-0062
+
+  - type: info
+    name: "Tatami and Shikkui"
+    description: "Telescopic Stiffening Ketsubutsu Academy High School Students"
+    image: 13-0078
+
+  - type: info
+    name: "Gang Orca and his Merry Sidekicks"
+    description: "Pro Heroes Big Fish"
+    image: 13-0096
+
+  - type: info
+    name: "Uraraka's Dots Trivia"
+    description: "Ochaco Uraraka Kacchan Katsuki Bakugo Flair costumes 1-A Students UA"
+    image: 13-0116
+
+  - type: info
+    name: "The Spin-offs"
+    description: "Vigilantes is canon Smash!! My Hero World Universe Tenya Iida Izuku Midoriya Deku Ochaco Uraraka"
+    image: 13-0134
+
+  - type: illustration
+    name: "At the Arcade"
+    description: "Tadpole tail Bettencourt Betten Court Vigilantes Hanta Sero Neito Monoma Tetsutetsu Tetsutetsu Katsuki Bakugo Kacchan Denki Kaminari Kirishima Eijiro Tsuyu Asui Koichi Haimawari Crawler Pop Step Knuckleduster KD"
+    image: 13-0152
+
+  - type: misc
+    name: "Smash!! from Neda-sensei"
+    description: "4-koma Melacholy Iida Tenya Mina Ashido Kirishima Eijiro Denki Kaminari Minoru Mineta Shoto Todoroki Kacchan Deku Katsuki Bakugo Izuku Midoriya DvK2"
+    image: 13-0168
+    
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Mashirao Ojiro Momo Yaoyorozu 1-A UA Student spine back flaps front flaps"

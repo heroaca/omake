@@ -6,6 +6,66 @@ entries:
     description: "Deku, Izuku Midoriya Volume Cover"
     image: 15-0001
 
+  - type: illustration
+    name: "Fatgum, Suneater and Red Riot"
+    description: "Taishiro Toyomitsu Tamaki Amajiki Eijiro Kirishima"
+    image: 15-0003
+
+  - type: info
+    name: "The Deku Mask"
+    description: "Hood"
+    image: 15-0024
+
+  - type: profile
+    name: "Ryukyu"
+    description: "Ryukyu Tatsuma Pro Heroes Sparkly"
+    image: 15-0063
+
+  - type: profile
+    name: "Eijiro Kirishima"
+    description: "Hardening 1-A UA Students Class"
+    image: 15-0124
+
+  - type: profile
+    name: "Fatgum"
+    description: "Takoyaki Taishiro Toyomitsu Pro Heroes"
+    image: 15-0143
+
+  - type: profile
+    name: "Centipeder"
+    description: "Juzo Moashi Fragrances Fan Art Contest Pro Heroes"
+    image: 15-0163
+
+  - type: profile
+    name: "Rock Lock"
+    description: "married Ken Takagi Bicycles Black Dirty Mouth Pro Heroes"
+    image: 15-0183
+
+  - type: profile
+    name: "Kesagiri Man"
+    description: "Fried Chicken Pro Heroes"
+    image: 15-0184
+
+  - type: info
+    name: "Vigilantes"
+    description: "Nejire Hado Gift"
+    image: 15-0185
+
+  - type: illustration
+    name: "The Big 3"
+    description: "Bettencourt Betten Court Vigilantes"
+    image: 15-0186
+
+  - type: info
+    name: "Staff"
+    description: "Eijiro Kirishima"
+    image: 15-0187
+
+  - type: misc
+    name: "Horikoshi's Staff"
+    description: "Quirk"
+    image: 15-0188
+
   - type: cover
     name: "Dust Cover"
     description: "Not in Viz Nejire Hado Minoru Mineta UA Students spine back flaps front flaps"
