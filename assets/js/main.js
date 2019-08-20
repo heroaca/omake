@@ -63,7 +63,8 @@
 		cart = document.querySelector('.cart'),
 		cartItems = cart.querySelector('.cart__count'),
 		// Raw toggle
-		index = 1;
+		// index = 1;
+		index = 2;
 
 	function init() {
 		// preload images
@@ -241,11 +242,19 @@
 			flkties[i].select( index , true , true );
 		}
 
-		if (index == 0) {
-			index = 1;
+		// if (index == 0) {
+		// 	index = 1;
+		// 	cart.classList.remove('yen-toggle');
+		// } else {
+		// 	index = 0;
+		// 	cart.classList.add('yen-toggle');
+		// }
+
+		if (index == 1) {
+			index = 2;
 			cart.classList.remove('yen-toggle');
 		} else {
-			index = 0;
+			index = 1;
 			cart.classList.add('yen-toggle');
 		}
 	}

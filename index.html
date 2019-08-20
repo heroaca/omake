@@ -250,6 +250,8 @@ title: MHA Omake
 			<div class="grid__item {{ file.type }}">
 				<div class="slider">
 
+					<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/{{ copy_link }}/{{ file.image }}.jpg" ><img data-flickity-lazyload="thumb/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Thumbnail" class="slider__img" /></div>
+
 					{% if en_exist == 'true' %}
 						<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/en/{{ file.image }}.jpg" ><img data-flickity-lazyload="en/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} in English" class="slider__img" /></div>
 						
