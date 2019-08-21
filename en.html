@@ -251,21 +251,6 @@ title: MHA Omake
 				<div class="slider">
 
 					<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/{{ copy_link }}/{{ file.image }}.jpg" ><img data-flickity-lazyload="thumb/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Thumbnail" class="slider__img" /></div>
-
-					{% if en_exist == 'true' %}
-						<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/en/{{ file.image }}.jpg" ><img data-flickity-lazyload="en/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} in English" class="slider__img" /></div>
-						
-					{% endif %}
-
-					{% if raw_exist == 'true' %}
-						<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/raw/{{ file.image }}.jpg" ><img data-flickity-lazyload="raw/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Raw" class="slider__img" /></div>
-						
-					{% endif %}
-					
-					{% if alt_exist == 'true' %}
-						<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/alt/{{ file.image }}.jpg" ><img data-flickity-lazyload="alt/{{ file.image }}.jpg" alt="Alternate Version of Volume {{ volume.volume }} {{ file.name }}" class="slider__img" /></div>
-						
-					{% endif %}
 					
 				</div>
 				<div class="meta">
