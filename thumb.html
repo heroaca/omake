@@ -1,0 +1,265 @@
+---
+title: MHA Omake
+---
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Hero Academia: Omake</title>
+	<meta name="description" content="MHA Volume Extra pages" />
+	<meta name="keywords" content="extra, pages, omake, my hero academia, bnha, filter, isotope, flickity" />
+	<meta name="author" content="MHA" />
+	<meta property="og:title" content="My Hero Academia: Omake" />
+  <meta property="og:site_name" content="僕のヒーローアカデミア御負け"/>
+  <meta property="og:url" content="https://heroaca.github.io/omake"/>
+  <meta property="og:description" content="Collection of MHA extras"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="{{site.baseurl}}/assets/main/cover.jpg" />
+  <meta property="og:image:width" content="482" />
+  <meta property="og:image:height" content="482" />
+	<link rel="shortcut icon" href="{{site.baseurl}}/assets/main/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/main/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/assets/main/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/assets/main/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/assets/main/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/assets/main/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/assets/main/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}/assets/main/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/main/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/main/apple-touch-icon-180x180.png" />
+	<!-- Font Awesome -->
+	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+	<link href="assets/css/all.css" rel="stylesheet"> <!--load all styles -->
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+	 <!-- Flickity gallery styles -->
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/flickity.css" /> -->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	<script src="assets/js/modernizr.custom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+
+	<style type="text/css">
+		#quicksearch {
+			display: block;
+			font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+			margin: 0;
+			padding: 0 0 0.15em;
+			width: 80%;
+			border: none;
+			border-bottom: 2px solid rgba(0,0,0,0.2);
+			background-color: transparent;
+			color: #fffed8;
+			text-overflow: ellipsis;
+			font-size: 2em;
+			border-radius: 0;
+			flex-grow: 1;
+		}
+
+		input:focus,
+		select:focus,
+		textarea:focus,
+		button:focus {
+			outline: none;
+		}
+
+		.slider__item {
+			width: 100%;
+			padding: 1em;
+		}
+
+		.slider__item img {
+			width: 100%;
+		}
+
+		.no-touch .slider {
+			padding: 0;
+		}
+
+		/* fade in image when loaded */
+		/*.slider__img {
+			transition: opacity 0.4s;
+			opacity: 0;
+		}*/
+
+		.slider__img.flickity-lazyloaded,
+		.slider__img.flickity-lazyerror {
+			opacity: 1;
+		}
+
+		.yen-toggle {
+			color: #C70025;
+			background-color: #f8f8f8;
+		}
+
+		.flickity-button {
+			-webkit-transition: opacity .3s;
+			transition: opacity .3s;
+		}
+
+		.no-touch .flickity-button, .flickity-prev-next-button {
+			opacity: 0;
+		}
+
+		.flickity-prev-next-button {
+			width: 30px;
+			height: 30px;
+			/*border-radius: 5px;*/
+			/*background: transparent;*/
+			/*background: #333;*/
+		}
+
+		.no-touch .grid__item:hover .flickity-button, .no-touch .grid__item:hover .flickity-prev-next-button {
+			opacity: 1;
+		}
+
+		.flickity-button:disabled {
+  			display: none;
+		}
+
+		.search-inline { 
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+	<!-- Bottom bar with filter and cart info -->
+	<div class="bar">
+		<div class="filter">
+			<span class="filter__label">Filter: </span>
+			<button class="action filter__item filter__item--selected" data-filter="*">All</button>
+			<button class="action filter__item" data-filter=".profile"><i class="fal fa-address-card"></i><span class="action__text">Profiles</span></button>
+			<button class="action filter__item" data-filter=".illustration"><i class="fal fa-pencil-paintbrush"></i><span class="action__text">Illustrations</span></button>
+			<button class="action filter__item" data-filter=".info"><i class="fal fa-info"></i><span class="action__text">Info</span></button>
+			<button class="action filter__item" data-filter=".cover"><i class="fal fa-blanket"></i><span class="action__text">Covers</span></button>
+			<button class="action filter__item" data-filter=".misc"><i class="fal fa-books"></i><span class="action__text">Miscs</span></button>
+		</div>
+	</div>
+	<!-- Main view -->
+	<div class="view">
+		<!-- Blueprint header -->
+		<!-- MHA Archives is a collection of My Hero Academia resources that MHA fans may find interesting. -->
+		<header class="bp-header cf">
+			<span>MHA Archives <span class="bp-icon bp-icon-about" data-content="Click on pages to copy the link to them. Toggle between RAW and translation with the circle button."></span></span>
+			<h1 style="line-height: 1.5">Volume Extras <span>powered by <a href="http://isotope.metafizzy.co/">Isotope</a> &amp; <a href="http://flickity.metafizzy.co/">Flickity</a></span></h1>
+			<p class="search-inline">
+				<input type="text" id="quicksearch" placeholder="Search" />
+				
+				<button class="action action--button search-button" ><i class="fa fa-search"></i><span class="text-hidden">Copy Link</span></button>
+			</p>
+		</header>
+		<!-- Grid -->
+		<section class="grid grid--loading">
+			<!-- Loader -->
+			<img class="grid__loader" src="assets/images/grid.svg" width="60" alt="Loader image" />
+			<!-- Grid sizer for a fluid Isotope (Masonry) layout -->
+			<div class="grid__sizer"></div>
+			<!-- Grid items -->
+			{% assign volumes = site.data.volumes | sort %}
+
+			{% for volume_hash in volumes %}
+			{% assign volume = volume_hash[1] %}
+			
+			{% for file in volume.entries %}
+
+			<!-- Reset Variables -->
+			{% assign en_exist = 'false' %}
+			{% assign raw_exist = 'false' %}
+			{% assign alt_exist = 'false' %}
+			{% assign copy_link = 'raw' %}
+			
+			{% assign en_translated = 'raw-only Japanese' %}
+			
+			{% for static_file in site.static_files %}
+				{% if static_file.basename contains file.image %}
+					{% if static_file.path contains 'alt' %}
+						{% assign alt_exist = 'true' %}
+					{% endif %}
+
+					{% if static_file.path contains 'raw' %}
+						{% assign raw_exist = 'true' %}
+					{% endif %}
+					
+					{% if static_file.path contains 'en' %}
+						{% assign en_exist = 'true' %}
+						{% assign en_translated = 'translated translation English' %}
+					{% endif %}
+					
+				{% endif %}
+			{% endfor %}
+
+			{% capture volume_name %}Vol. {{ volume.volume }}{% endcapture %}
+			{% if volume.volume contains 'UA1' %}
+				{% capture volume_name %}Ultra Archive{% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'UA2' %}
+				{% capture volume_name %}Ultra Analysis{% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'WSJ' %}
+				{% capture volume_name %}WSJ{% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'V' %}
+				{% assign vig_no = volume.volume | replace: 'V', '' %}
+				{% assign en_translated = en_translated | append: ' vigs' %}
+				{% capture volume_name %}Vigilantes Vol. {{ vig_no }} {% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'M' %}
+				{% assign smash_no = volume.volume | replace: 'M', '' %}
+				{% capture volume_name %}Smash!! Vol. {{ smash_no }} {% endcapture %}
+			{% endif %}
+			{% if volume.volume contains 'T' %}
+				{% assign tum_no = volume.volume | replace: 'T', '' %}
+				{% capture volume_name %}Team Up Mission Vol. {{ tum_no }} {% endcapture %}
+			{% endif %}
+
+			{% if alt_exist == 'true' %}
+				{% assign copy_link = 'alt' %}
+			{% endif %}
+
+			{% if raw_exist == 'true' %}
+				{% assign copy_link = 'raw' %}
+			{% endif %}
+
+			{% if en_exist == 'true' %}
+				{% assign copy_link = 'en' %}
+			{% endif %}
+
+			
+			<div class="grid__item {{ file.type }}">
+				<div class="slider">
+
+					<div class="slider__item" data-clipboard-text="https://heroaca.github.io/omake/{{ copy_link }}/{{ file.image }}.jpg" ><img src="xs/{{ file.image }}.jpg" alt="Volume {{ volume.volume }} {{ file.name }} Thumbnail" class="slider__img" /></div>
+					
+				</div>
+				<div class="meta">
+					<h3 class="meta__title">{{ file.name }}</h3>
+					<span class="meta__brand" style="display: none">{{ file.description }} {{ file.type }}s {{ file.name }} {{ en_translated }} {{ volume_name }}</span>
+					<span class="meta__price">{{ volume_name }}</span>
+				</div>
+				<button class="action action--button action--buy" data-clipboard-text="https://heroaca.github.io/omake/{{ copy_link }}/{{ file.image }}.jpg" ><i class="fa fa-link"></i><span class="text-hidden">Copy Link</span></button>
+			</div>
+
+			<!-- Reset Variables -->
+			{% assign en_exist = 'false' %}
+			{% assign raw_exist = 'false' %}
+			{% assign alt_exist = 'false' %}
+			{% assign copy_link = 'raw' %}
+
+			{% endfor %}
+			{% endfor %}
+		</section>
+		<!-- /grid-->
+	</div>
+	<!-- /view -->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+	<script src="assets/js/thumb.js"></script>
+</body>
+</html>
