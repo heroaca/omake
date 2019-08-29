@@ -67,7 +67,7 @@
 		imagesLoaded(grid, function() {
 			getFilters();
 
-			initFlickity();
+			// initFlickity();
 			initIsotope();
 
 			initEvents();
