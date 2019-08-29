@@ -68,7 +68,7 @@
 
 	function init() {
 		// preload images
-		imagesLoaded(grid, function() {
+		// imagesLoaded(grid, function() {
 			getFilters();
 
 			initFlickity();
@@ -81,7 +81,7 @@
 			arrangeIso();
 			
 			grid.classList.remove('grid--loading');
-		});
+		// });
 	}
 
 	function initFlickity() {
