@@ -80,21 +80,21 @@
 		});
 	}
 
-	function initFlickity() {
-		sliders.forEach(function(slider){
-			var flkty = new Flickity(slider, {
-				prevNextButtons: false,
-				wrapAround: true,
-				cellAlign: 'left',
-				contain: true,
-				pageDots: false,
-				resize: false
-			});
+	// function initFlickity() {
+	// 	sliders.forEach(function(slider){
+	// 		var flkty = new Flickity(slider, {
+	// 			prevNextButtons: false,
+	// 			wrapAround: true,
+	// 			cellAlign: 'left',
+	// 			contain: true,
+	// 			pageDots: false,
+	// 			resize: false
+	// 		});
 
-			// store flickity instances
-			flkties.push(flkty);
-		});
-	}
+	// 		// store flickity instances
+	// 		flkties.push(flkty);
+	// 	});
+	// }
 
 	function initIsotope() {
 		iso = new Isotope( grid, {
@@ -154,7 +154,7 @@
 					return searchResult && buttonResult;
 				}
 			});
-			recalcFlickities();
+			// recalcFlickities();
 			iso.layout();
 		}));
 
@@ -167,7 +167,7 @@
 
 		// window resize / recalculate sizes for both flickity and isotope/masonry layouts
 		window.addEventListener('resize', throttle(function(ev) {
-			recalcFlickities()
+			// recalcFlickities()
 			iso.layout();
 		}, 50));
 	}
@@ -210,15 +210,15 @@
 				return searchResult && buttonResult;
 			}
 		});
-		recalcFlickities();
+		// recalcFlickities();
 		iso.layout();
 	}
 
-	function recalcFlickities() {
-		for(var i = 0, len = flkties.length; i < len; ++i) {
-			flkties[i].resize();
-		}
-	}
+	// function recalcFlickities() {
+	// 	for(var i = 0, len = flkties.length; i < len; ++i) {
+	// 		flkties[i].resize();
+	// 	}
+	// }
 
 	init();
 
